@@ -1,0 +1,31 @@
+{{!-- Menu Bar --}}
+<ul class="menubar navbar-nav mr-auto" style="margin-left: 80px">
+    <li class="nav-item mr-3 active">
+        <a class="nav-link" href="/">Home</span></a>
+    </li>
+    <li class="nav-item mr-3">
+        <a class="nav-link" href="/cryptocurrencies">Cryptocurrencies</a>
+    </li>
+    <li class="nav-item mr-3">
+        <a class="nav-link" href="/cryptonews">News</a>
+    </li>
+        <li class="nav-item mr-3">
+        <a class="nav-link" href="/about">About</a>
+    </li>
+    
+    {{#ifdef user }}
+    <li class="nav-item mr-3">
+        <a class="nav-link" href="/cryptotrading">Trading Zone</a>
+    </li>
+    {{/ifdef}}
+
+    {{#ifRole user roles "Admin" }}
+    <li class="nav-item mr-3">
+        <a class="nav-link" href="/admin">Admin</a>
+    </li>
+    
+    <li class="nav-item mr-3">
+        <a class="nav-link" href="/settings">Settings</a>
+    </li>
+    {{/ifRole}}  
+</ul>

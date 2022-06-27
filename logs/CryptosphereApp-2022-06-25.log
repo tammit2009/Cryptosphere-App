@@ -1,0 +1,194 @@
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:09:58:38 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:09:58:42 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:09:58:45 +0000] \"GET /cryptonews HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:09:58:47 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:09:58:49 +0000] \"GET /about HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:09:58:51 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:09:58:53 +0000] \"GET /settings HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:10:01:00 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:10:05:10 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:10:05:45 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:10:07:13 +0000] \"GET /api/v1/users HTTP/1.1\" 200 551"}
+{"level":"info","message":"::1 - - [25/Jun/2022:10:07:57 +0000] \"GET /api/v1/users/profile/62b5cc97a8235c9537124ba5 HTTP/1.1\" 200 390"}
+{"level":"info","message":"::1 - - [25/Jun/2022:10:09:08 +0000] \"GET /api/v1/users/token-refresh HTTP/1.1\" 200 638"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:32:11 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 1609"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:34:47 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 1609"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:35:28 +0000] \"POST /api/v1/keystore HTTP/1.1\" 403 38"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:36:19 +0000] \"POST /api/v1/keystore HTTP/1.1\" 403 47"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:36:34 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:36:52 +0000] \"POST /api/v1/keystore HTTP/1.1\" 200 2"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:43:18 +0000] \"POST /api/v1/keystore HTTP/1.1\" 403 47"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:43:28 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:43:38 +0000] \"POST /api/v1/keystore HTTP/1.1\" 200 2"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:47:19 +0000] \"POST /api/v1/keystore HTTP/1.1\" 200 2"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:48:50 +0000] \"POST /api/v1/keystore HTTP/1.1\" 403 47"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:48:59 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:49:04 +0000] \"POST /api/v1/keystore HTTP/1.1\" 200 2"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:53:22 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:53:28 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 282"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:53:56 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 288"}
+{"level":"info","message":"::1 - - [25/Jun/2022:13:54:55 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 442"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"date":"Sat Jun 25 2022 15:05:35 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '.'\nC:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\controllers\\keystoreApiController.js:48\n    const encVal = helpers.encryptString({ data: val, keystore.initVector });\n                                                              ^\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\apiRoutes.js:89:5)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":490593},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18734337,"external":23092166,"heapTotal":58118144,"heapUsed":28977176,"rss":66310144},"pid":3108,"uid":null,"version":"v16.14.2"},"stack":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\controllers\\keystoreApiController.js:48\n    const encVal = helpers.encryptString({ data: val, keystore.initVector });\n                                                              ^\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\apiRoutes.js:89:5)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":352,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1032,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1067,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":5,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\apiRoutes.js","function":null,"line":89,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:07:15 +0000] \"POST /api/v1/keystore HTTP/1.1\" 403 47"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:07:23 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:07:29 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 289"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:08:29 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 689"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:14:34 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:14:40 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 2969"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:51:24 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:51:31 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 2969"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:54:08 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:54:17 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 2969"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:55:06 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 2969"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:56:43 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 184"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:58:48 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:14:58:53 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 135"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:00:40 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 689"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:02:48 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:02:53 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 135"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:04:38 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 135"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:06:08 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 135"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:08:55 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:09:02 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 135"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:09:35 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 135"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:12:59 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:13:05 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 689"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:13:58 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 689"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:14:59 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 689"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:15:56 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 135"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:17:14 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:17:18 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 135"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:18:26 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 390"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:23:37 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:23:45 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 409"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:24:00 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 859"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:25:36 +0000] \"POST /api/v1/keystore HTTP/1.1\" 500 859"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:29:50 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:29:57 +0000] \"POST /api/v1/keystore HTTP/1.1\" 400 282"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:30:44 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 409"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:30:53 +0000] \"POST /api/v1/keystore HTTP/1.1\" 400 282"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:32:01 +0000] \"POST /api/v1/keystore HTTP/1.1\" 201 716"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:39:45 +0000] \"GET /api/v1/keystore HTTP/1.1\" 403 47"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:39:53 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:39:58 +0000] \"GET /api/v1/keystore HTTP/1.1\" 500 280"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:40:29 +0000] \"GET /api/v1/keystore HTTP/1.1\" 200 2"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:42:17 +0000] \"GET /api/v1/keystore HTTP/1.1\" 200 583"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:45:29 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:45:34 +0000] \"GET /api/v1/keystore HTTP/1.1\" 200 597"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:47:56 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:48:05 +0000] \"GET /api/v1/keystore HTTP/1.1\" 200 231"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:49:19 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:15:49:21 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [25/Jun/2022:18:33:00 +0000] \"GET /api/v1/keystore HTTP/1.1\" 403 47"}
+{"level":"info","message":"::1 - - [25/Jun/2022:18:33:33 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:18:33:41 +0000] \"GET /api/v1/keystore HTTP/1.1\" 200 231"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:10:19 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:10:27 +0000] \"GET /api/v1/keystore HTTP/1.1\" 200 231"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:10:33 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 403 38"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:11:19 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 404 44"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:12:10 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 200 2"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:18:56 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:19:08 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 200 2"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:19:20 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaad HTTP/1.1\" 200 2"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:23:53 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:24:02 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaad HTTP/1.1\" 500 343"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:25:03 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaad HTTP/1.1\" 500 343"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:26:45 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 200 113"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:27:04 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaad HTTP/1.1\" 500 343"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:28:38 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaad HTTP/1.1\" 400 46"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:28:46 +0000] \"GET /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 200 113"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:35:29 +0000] \"DELETE /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 403 47"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:35:37 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1107"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:35:43 +0000] \"DELETE /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 200 2"}
+{"level":"info","message":"::1 - - [25/Jun/2022:20:35:48 +0000] \"PATCH /api/v1/keystore/62b72a23801464eb004cbaac HTTP/1.1\" 200 2"}

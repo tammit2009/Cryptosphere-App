@@ -1,0 +1,44 @@
+
+<div class="container">
+    <div class="card card-container">
+        
+        <img id="profile-img" class="profile-img-card" src="./images/avatar_2x.png" />
+
+        <h3 class="text-center">Register</h3>
+
+        {{#ifCond message.length ">" 0 }}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <p>{{ message }}</p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        {{/ifCond}} 
+        
+        <form class="form-register mt-3 mb-2" action="#" method="post">
+            <div class="form-group">
+                <input type="text" name="username" id="username" class="form-control" placeholder="Username" required autofocus autocomplete="off">
+                <small id="username_error" class="text-error">Invalid Username.</small>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email address" required autocomplete="off">
+                <small id="email_error" class="text-error">Invalid Email.</small>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+                <small id="password_error" class="text-error">Invalid Password.</small>
+            </div>
+            <div class="form-group">
+                <input type="password" name="confirm_password" id="confirm_password" class="form-control" placeholder="Confirm Password" required>
+                <small id="confirm_password_error" class="text-error">Password does not match.</small>
+            </div>
+            
+            <button class="btn btn-lg btn-primary btn-block btn-register" type="submit">Register</button>
+        </form>
+
+        <p class="text-center">
+            Existing user? <a href="/login" class="newuser-login">Login</a>
+        </p>
+
+    </div>
+</div>

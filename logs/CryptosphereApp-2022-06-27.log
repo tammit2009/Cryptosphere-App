@@ -1,0 +1,776 @@
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:08:58:06 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:08:59:37 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:08:59:39 +0000] \"GET /cryptonews HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:08:59:49 +0000] \"GET /login HTTP/1.1\" 200 3782"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:00:54 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:00:56 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:06:16 +0000] \"GET /login HTTP/1.1\" 200 3791"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:06:18 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:06:28 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:06:30 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:06:33 +0000] \"GET /login HTTP/1.1\" 200 3791"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:06:35 +0000] \"GET /favicon.ico HTTP/1.1\" 200 15406"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:07:21 +0000] \"GET /login HTTP/1.1\" 200 3633"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:07:23 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:08:17 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:08:19 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:09:05 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:09:07 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:09:24 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:09:26 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:09:39 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:09:41 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Jun/2022:09:10:16 +0000] \"GET /login HTTP/1.1\" 200 3634"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:10:19 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:11:31 +0000] \"GET /login HTTP/1.1\" 200 3633"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:11:33 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:13:18 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:13:20 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:14:58 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:15:00 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:15:41 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:15:43 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:16:08 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:16:10 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:18:53 +0000] \"GET /login HTTP/1.1\" 200 3665"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:18:55 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:21:56 +0000] \"GET /login HTTP/1.1\" 200 3504"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:21:58 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:23:49 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:23:51 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:24:04 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:24:06 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:24:19 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:24:21 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:24:40 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:24:42 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:25:24 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:25:27 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:26:09 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:26:11 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:26:25 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:26:27 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:26:44 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:26:46 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:27:26 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:27:27 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:27:50 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:27:52 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:28:09 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:28:11 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:28:47 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:28:49 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:29:21 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:29:24 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:29:48 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:29:50 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:29:58 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:29:59 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:32:51 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:32:53 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:33:46 +0000] \"GET /login HTTP/1.1\" 200 3656"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:33:48 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:34:14 +0000] \"GET /login HTTP/1.1\" 200 3661"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:34:15 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:41:15 +0000] \"GET /login HTTP/1.1\" 200 3817"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:41:17 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:42:28 +0000] \"GET /login HTTP/1.1\" 200 3817"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:42:29 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:42:39 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:42:41 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:42:57 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:42:59 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:44:52 +0000] \"GET /login HTTP/1.1\" 200 3630"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:44:54 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:45:11 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:45:13 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:47:08 +0000] \"GET /login HTTP/1.1\" 200 3999"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:47:09 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:47:39 +0000] \"GET /login HTTP/1.1\" 200 3998"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:47:40 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Jun/2022:09:48:48 +0000] \"GET /login HTTP/1.1\" 200 3972"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:48:50 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:53:28 +0000] \"GET /login HTTP/1.1\" 200 4125"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:53:30 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:55:32 +0000] \"GET /login HTTP/1.1\" 200 3785"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:55:34 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:56:33 +0000] \"GET /login HTTP/1.1\" 200 3811"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:56:35 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:57:50 +0000] \"GET /login HTTP/1.1\" 200 3830"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:57:54 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:58:49 +0000] \"GET /login HTTP/1.1\" 200 3901"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:58:51 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Jun/2022:09:59:30 +0000] \"GET /login HTTP/1.1\" 200 3894"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:59:32 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:59:55 +0000] \"GET /login HTTP/1.1\" 200 3914"}
+{"level":"info","message":"::1 - - [27/Jun/2022:09:59:56 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Jun/2022:10:01:52 +0000] \"GET /login HTTP/1.1\" 200 3963"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:01:54 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:02:31 +0000] \"GET /login HTTP/1.1\" 200 3816"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:02:33 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:03:45 +0000] \"GET /login HTTP/1.1\" 200 3816"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:03:47 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:04:22 +0000] \"GET /login HTTP/1.1\" 200 3821"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:04:24 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:04:27 +0000] \"GET /register HTTP/1.1\" 200 4288"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:04:43 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:09:31 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:09:33 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:09:34 +0000] \"GET /register HTTP/1.1\" 200 3829"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:09:43 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:09:47 +0000] \"GET /register HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:15:04 +0000] \"GET /register HTTP/1.1\" 200 4463"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:15:05 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:15:13 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:15:16 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:15:24 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:15:30 +0000] \"GET /register HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:37:09 +0000] \"GET /register HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:37:12 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:37:14 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:42:45 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:42:47 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:43:03 +0000] \"POST /login HTTP/1.1\" 302 78"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:43:04 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:46:29 +0000] \"GET /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:46:30 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"date":"Mon Jun 27 2022 11:50:21 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:40:10)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:36:19)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":651678},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18708736,"external":23092265,"heapTotal":58118144,"heapUsed":28947048,"rss":67452928},"pid":10796,"uid":null,"version":"v16.14.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:40:10)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:36:19)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":15,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":211,"method":"<computed> [as get]","native":false},{"column":10,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":36,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:51:48 +0000] \"GET /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:51:49 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:53:14 +0000] \"GET /cryptotrading HTTP/1.1\" 500 1583"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:53:16 +0000] \"GET /favicon.ico HTTP/1.1\" 500 1583"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:54:15 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5081"}
+{"level":"info","message":"::1 - - [27/Jun/2022:10:54:17 +0000] \"GET /favicon.ico HTTP/1.1\" 200 15406"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:05:57 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:05:59 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:06:12 +0000] \"GET /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:06:13 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:06:13 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"date":"Mon Jun 27 2022 12:06:13 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'group')\nTypeError: Cannot read properties of undefined (reading 'group')\n    at C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:118:55\n    at Layer.handle [as handle_request] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SessionStrategy.strategy.pass (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js:346:9)\n    at SessionStrategy.authenticate (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\strategies\\session.js:75:10)\n    at attempt (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js:369:16)\n    at authenticate (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js:370:7)","os":{"loadavg":[0,0,0],"uptime":652630},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18326294,"external":19306875,"heapTotal":30068736,"heapUsed":28160264,"rss":57643008},"pid":13792,"uid":null,"version":"v16.14.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'group')\n    at C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:118:55\n    at Layer.handle [as handle_request] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SessionStrategy.strategy.pass (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js:346:9)\n    at SessionStrategy.authenticate (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\strategies\\session.js:75:10)\n    at attempt (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js:369:16)\n    at authenticate (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js:370:7)","trace":[{"column":55,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":118,"method":null,"native":false},{"column":5,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js","function":"SessionStrategy.strategy.pass","line":346,"method":"pass","native":false},{"column":10,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\strategies\\session.js","function":"SessionStrategy.authenticate","line":75,"method":"authenticate","native":false},{"column":16,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js","function":"attempt","line":369,"method":null,"native":false},{"column":7,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\passport\\lib\\middleware\\authenticate.js","function":"authenticate","line":370,"method":null,"native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:08:28 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:08:31 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:08:58 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:08:59 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:09:27 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:09:35 +0000] \"POST /login HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:09:36 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:09:54 +0000] \"POST /login HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:09:54 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:10:33 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:10:36 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:10:42 +0000] \"POST /login HTTP/1.1\" 302 78"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:10:44 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:13:58 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:13:59 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:14:09 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:14:26 +0000] \"POST /login HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:14:27 +0000] \"GET /login HTTP/1.1\" 200 4152"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:14:47 +0000] \"POST /login HTTP/1.1\" 302 78"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:14:48 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:15:01 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"date":"Mon Jun 27 2022 12:17:15 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: await is only valid in async functions and the top level bodies of modules\nC:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:35\n        const group = await Group.findOne({ _id: user.group }).populate({ path: 'roles' });\n                      ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:7:23)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":653292},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18695725,"external":23092265,"heapTotal":58118144,"heapUsed":28271144,"rss":67735552},"pid":11368,"uid":null,"version":"v16.14.2"},"stack":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:35\n        const group = await Group.findOne({ _id: user.group }).populate({ path: 'roles' });\n                      ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:7:23)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":352,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1032,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1067,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":23,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"date":"Mon Jun 27 2022 12:17:34 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: missing ) after argument list\nC:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:24\n}, await function(req, email, password, done) {\n   ^^^^^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:7:23)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":653310},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18716928,"external":23092265,"heapTotal":58118144,"heapUsed":28895944,"rss":67395584},"pid":3908,"uid":null,"version":"v16.14.2"},"stack":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:24\n}, await function(req, email, password, done) {\n   ^^^^^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:7:23)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":352,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1032,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1067,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":23,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"date":"Mon Jun 27 2022 12:17:48 GMT+0100 (West Africa Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"]},"exception":true,"level":"error","message":"uncaughtException: Cannot find module './models/group'\nRequire stack:\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js\nError: Cannot find module './models/group'\nRequire stack:\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:5:13)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)","os":{"loadavg":[0,0,0],"uptime":653325},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19031199,"external":19993866,"heapTotal":57856000,"heapUsed":30389240,"rss":67235840},"pid":10528,"uid":null,"version":"v16.14.2"},"stack":"Error: Cannot find module './models/group'\nRequire stack:\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js\n- C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:5:13)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:18:18 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:18:18 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:18:25 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"date":"Mon Jun 27 2022 12:18:33 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: res is not defined\nReferenceError: res is not defined\n    at C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:37:9\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":653370},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18318893,"external":19362588,"heapTotal":30330880,"heapUsed":27530512,"rss":56868864},"pid":3784,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: res is not defined\n    at C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:37:9\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":9,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js","function":null,"line":37,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"date":"Mon Jun 27 2022 12:22:46 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: await is only valid in async functions and the top level bodies of modules\nC:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:45\n        const group = await Group.findOne({ _id: user.group }).populate({ path: 'roles' });\n                      ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:7:23)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":653622},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19023007,"external":19986444,"heapTotal":57856000,"heapUsed":30182632,"rss":67022848},"pid":6672,"uid":null,"version":"v16.14.2"},"stack":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:45\n        const group = await Group.findOne({ _id: user.group }).populate({ path: 'roles' });\n                      ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:7:23)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":352,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1032,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1067,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":23,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:23:15 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:23:18 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:23:18 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:23:40 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:23:41 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:30:07 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:30:07 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:30:18 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:30:27 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:30:28 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:32:02 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:32:05 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:32:15 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:32:15 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:32:21 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:32:29 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:32:30 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:34:15 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:34:15 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:34:27 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:34:35 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:34:36 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:35:29 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:35:30 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:35:35 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:35:43 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"date":"Mon Jun 27 2022 12:35:43 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: user is not defined\nReferenceError: user is not defined\n    at exports.isAuthenticated (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:45:50)\n    at Layer.handle [as handle_request] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:47:12)","os":{"loadavg":[0,0,0],"uptime":654400},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18330709,"external":19385638,"heapTotal":30330880,"heapUsed":27992576,"rss":57606144},"pid":12688,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: user is not defined\n    at exports.isAuthenticated (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js:45:50)\n    at Layer.handle [as handle_request] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:47:12)","trace":[{"column":50,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\passport.js","function":"exports.isAuthenticated","line":45,"method":"isAuthenticated","native":false},{"column":5,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Jun/2022:11:36:39 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:36:41 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:36:47 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:36:48 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:36:56 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:36:56 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:37:06 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:37:22 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:37:23 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:38:56 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:38:57 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:39:03 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:39:10 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:39:11 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:39:56 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:39:59 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:44:34 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:44:36 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:46:52 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5092"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:46:54 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:47:25 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5103"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:47:27 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:47:49 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5099"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:47:51 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:48:46 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:48:52 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:49:01 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:49:02 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:49:05 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:49:08 +0000] \"GET /cryptotrading HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:49:09 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:49:22 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:57:29 +0000] \"GET /admin HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:57:30 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:57:32 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:57:42 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:57:43 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5099"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:57:56 +0000] \"GET /admin HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:11:57:57 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:01:09 +0000] \"GET /admin HTTP/1.1\" 500 1587"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:05:50 +0000] \"GET /admin HTTP/1.1\" 500 1587"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:05:53 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:07:35 +0000] \"GET /admin HTTP/1.1\" 500 1587"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:07:37 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:08:06 +0000] \"GET /admin HTTP/1.1\" 200 5089"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:08:08 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:08:54 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:08:56 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:09:15 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:09:16 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:09:21 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:09:30 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:09:31 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:09:51 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:10:56 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:10:59 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"date":"Mon Jun 27 2022 13:19:12 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: await is only valid in async functions and the top level bodies of modules\nC:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\auth.js:163\n            const group = await Group.findOne({ _id: req.user.group }).populate({ path: 'roles' });\n                          ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:27:34)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":657008},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302304,"external":22660133,"heapTotal":57593856,"heapUsed":22487416,"rss":65556480},"pid":7244,"uid":null,"version":"v16.14.2"},"stack":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\auth.js:163\n            const group = await Group.findOne({ _id: req.user.group }).populate({ path: 'roles' });\n                          ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:27:34)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":352,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1032,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1067,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":34,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"date":"Mon Jun 27 2022 13:20:03 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: await is only valid in async functions and the top level bodies of modules\nC:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\auth.js:163\n            const group = await Group.findOne({ _id: req.user.group }).populate({ path: 'roles' });\n                          ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:27:34)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":657059},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302304,"external":22677641,"heapTotal":57593856,"heapUsed":22422672,"rss":65314816},"pid":12116,"uid":null,"version":"v16.14.2"},"stack":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\auth.js:163\n            const group = await Group.findOne({ _id: req.user.group }).populate({ path: 'roles' });\n                          ^^^^^\n\nSyntaxError: await is only valid in async functions and the top level bodies of modules\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:27:34)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":352,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1032,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1067,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":34,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:21:20 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:21:23 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:22:10 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:22:12 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:23:01 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:23:04 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:23:20 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:23:21 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:23:27 +0000] \"GET /admin HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:23:27 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"date":"Mon Jun 27 2022 13:24:19 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token 'else'\nC:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\auth.js:179\n            else {\n            ^^^^\n\nSyntaxError: Unexpected token 'else'\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:27:34)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":657316},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302433,"external":24822479,"heapTotal":57593856,"heapUsed":22578592,"rss":65286144},"pid":3980,"uid":null,"version":"v16.14.2"},"stack":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\middleware\\auth.js:179\n            else {\n            ^^^^\n\nSyntaxError: Unexpected token 'else'\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:27:34)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":352,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1032,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1067,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":34,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:25:01 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:25:05 +0000] \"GET /admin HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:25:06 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:26:33 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:26:35 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:26:44 +0000] \"GET /admin HTTP/1.1\" 200 5089"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:26:53 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:26:53 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:27:40 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:27:51 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:27:51 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5100"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:27:56 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:29:03 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1161"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:29:11 +0000] \"GET /api/v1/groups HTTP/1.1\" 200 1051"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:30:10 +0000] \"PATCH /api/v1/users/profile/62b59ac83532b437f4a6c9e7 HTTP/1.1\" 404 26"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:30:34 +0000] \"PATCH /api/v1/users/profile/62b8c45cd5589cfdc0abf9cc HTTP/1.1\" 200 395"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:30:43 +0000] \"POST /api/v1/users/login HTTP/1.1\" 200 1026"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:32:44 +0000] \"DELETE /api/v1/groups/roles HTTP/1.1\" 204 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:32:52 +0000] \"GET /api/v1/groups HTTP/1.1\" 200 944"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:33:27 +0000] \"GET /api/v1/users HTTP/1.1\" 200 1400"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:33:52 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:33:57 +0000] \"GET /admin HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:33:57 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"date":"Mon Jun 27 2022 13:37:35 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:39:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)","os":{"loadavg":[0,0,0],"uptime":658112},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18717907,"external":25237953,"heapTotal":58380288,"heapUsed":29375520,"rss":66633728},"pid":6516,"uid":null,"version":"v16.14.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:39:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)","trace":[{"column":15,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":211,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as get]","line":521,"method":"<computed> [as get]","native":false},{"column":8,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":31,"method":null,"native":false}]}
+{"date":"Mon Jun 27 2022 13:38:32 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:38:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)","os":{"loadavg":[0,0,0],"uptime":658169},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19023986,"external":19988266,"heapTotal":57856000,"heapUsed":30259688,"rss":66285568},"pid":10444,"uid":null,"version":"v16.14.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:38:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)","trace":[{"column":15,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":211,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as get]","line":521,"method":"<computed> [as get]","native":false},{"column":8,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":38,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":31,"method":null,"native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:20 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:21 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:29 +0000] \"GET /admin HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:30 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:42 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:43 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5099"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:50 +0000] \"GET /admin HTTP/1.1\" 200 5089"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:56 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:43:56 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:44:02 +0000] \"GET /login HTTP/1.1\" 200 3840"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:44:14 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:44:14 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5100"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:44:18 +0000] \"GET /admin HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:44:18 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:21 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:23 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:25 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:29 +0000] \"GET /admin HTTP/1.1\" 302 74"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:30 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 5365"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:30 +0000] \"GET /exceptions/css/all.min.css HTTP/1.1\" 404 482"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:30 +0000] \"GET /css/style.css HTTP/1.1\" 404 469"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:30 +0000] \"GET /exceptions/css/boxicons.min.css HTTP/1.1\" 404 487"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:31 +0000] \"GET /exceptions/css/bootstrap.min.css HTTP/1.1\" 404 488"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:31 +0000] \"GET /exceptions/js/bootstrap.min.js HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:31 +0000] \"GET /exceptions/css/local/style.css HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:31 +0000] \"GET /exceptions/js/jquery.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:31 +0000] \"GET /exceptions/js/local/script.js HTTP/1.1\" 404 485"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:45:31 +0000] \"GET /exceptions/js/popper.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:23 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 5067"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:24 +0000] \"GET /exceptions/js/jquery.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:24 +0000] \"GET /exceptions/css/bootstrap.min.css HTTP/1.1\" 404 488"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:24 +0000] \"GET /exceptions/css/boxicons.min.css HTTP/1.1\" 404 487"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:24 +0000] \"GET /exceptions/css/local/style.css HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:25 +0000] \"GET /exceptions/css/all.min.css HTTP/1.1\" 404 482"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:25 +0000] \"GET /exceptions/js/local/script.js HTTP/1.1\" 404 485"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:25 +0000] \"GET /exceptions/js/bootstrap.min.js HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:25 +0000] \"GET /exceptions/js/popper.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:27 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:29 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 5067"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:29 +0000] \"GET /exceptions/css/bootstrap.min.css HTTP/1.1\" 404 488"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:29 +0000] \"GET /exceptions/css/all.min.css HTTP/1.1\" 404 482"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:29 +0000] \"GET /exceptions/css/boxicons.min.css HTTP/1.1\" 404 487"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:29 +0000] \"GET /exceptions/css/local/style.css HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:30 +0000] \"GET /exceptions/js/popper.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:30 +0000] \"GET /exceptions/js/local/script.js HTTP/1.1\" 404 485"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:30 +0000] \"GET /exceptions/js/jquery.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:30 +0000] \"GET /exceptions/js/bootstrap.min.js HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:48:31 +0000] \"GET /favicon.ico HTTP/1.1\" 200 15406"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Jun/2022:12:50:49 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 5023"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:50 +0000] \"GET /exceptions/css/all.min.css HTTP/1.1\" 404 482"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:50 +0000] \"GET /exceptions/css/local/style.css HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:50 +0000] \"GET /exceptions/js/jquery.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Jun/2022:12:50:51 +0000] \"GET /exceptions/js/bootstrap.min.js HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:51 +0000] \"GET /exceptions/css/bootstrap.min.css HTTP/1.1\" 404 488"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:51 +0000] \"GET /exceptions/css/boxicons.min.css HTTP/1.1\" 404 487"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:51 +0000] \"GET /exceptions/js/local/script.js HTTP/1.1\" 404 485"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:51 +0000] \"GET /exceptions/js/popper.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:53 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:56 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 5023"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:56 +0000] \"GET /exceptions/css/boxicons.min.css HTTP/1.1\" 404 487"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:56 +0000] \"GET /exceptions/css/all.min.css HTTP/1.1\" 404 482"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:56 +0000] \"GET /exceptions/css/bootstrap.min.css HTTP/1.1\" 404 488"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:57 +0000] \"GET /exceptions/js/popper.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:57 +0000] \"GET /exceptions/css/local/style.css HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:57 +0000] \"GET /exceptions/js/jquery.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:57 +0000] \"GET /exceptions/js/bootstrap.min.js HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:57 +0000] \"GET /exceptions/js/local/script.js HTTP/1.1\" 404 485"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:50:58 +0000] \"GET /favicon.ico HTTP/1.1\" 200 15406"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:51:04 +0000] \"GET /exceptions/css/all.min.css HTTP/1.1\" 404 482"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:51:05 +0000] \"GET /exceptions/css/bootstrap.min.css HTTP/1.1\" 404 488"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:51:05 +0000] \"GET /exceptions/css/local/style.css HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:51:05 +0000] \"GET /exceptions/css/boxicons.min.css HTTP/1.1\" 404 487"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:53:25 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 5027"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:53:26 +0000] \"GET /exceptions/js/jquery.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:53:26 +0000] \"GET /exceptions/js/popper.min.js HTTP/1.1\" 404 483"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:53:27 +0000] \"GET /exceptions/js/bootstrap.min.js HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:53:27 +0000] \"GET /exceptions/js/local/script.js HTTP/1.1\" 404 485"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:53:29 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:53:54 +0000] \"GET / HTTP/1.1\" 200 5030"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:54:02 +0000] \"GET /exceptions/js/local/script.js HTTP/1.1\" 404 485"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:54:02 +0000] \"GET /exceptions/js/bootstrap.min.js HTTP/1.1\" 404 486"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:54:44 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 5031"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:54:46 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [27/Jun/2022:12:57:05 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 2943"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:57:05 +0000] \"GET /exceptions/css/bootstrap.min.css HTTP/1.1\" 404 488"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:57:06 +0000] \"GET /exceptions/css/local/style.css HTTP/1.1\" 404 486"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:57:06 +0000] \"GET /exceptions/css/all.min.css HTTP/1.1\" 404 482"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:57:06 +0000] \"GET /exceptions/css/local/auth.css HTTP/1.1\" 404 485"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:57:06 +0000] \"GET /exceptions/css/boxicons.min.css HTTP/1.1\" 404 487"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:57:09 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:58:48 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 2858"}
+{"level":"info","message":"::1 - - [27/Jun/2022:12:58:51 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:00:29 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 2909"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:00:31 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:00:46 +0000] \"GET / HTTP/1.1\" 200 4944"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:00:55 +0000] \"GET /admin HTTP/1.1\" 302 74"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:00:56 +0000] \"GET /exceptions/401 HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:05:41 +0000] \"GET /exceptions/404 HTTP/1.1\" 200 2873"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:05:47 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:05:58 +0000] \"GET /admin HTTP/1.1\" 302 74"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:05:59 +0000] \"GET /exceptions/401 HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:06:08 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 4984"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:06:11 +0000] \"GET /admin HTTP/1.1\" 302 74"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:06:11 +0000] \"GET /exceptions/401 HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:06:15 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:17 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:19 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:22 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5018"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:25 +0000] \"GET /admin HTTP/1.1\" 302 74"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:27 +0000] \"GET /exceptions/401 HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:30 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:35 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:36 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:41 +0000] \"GET /login HTTP/1.1\" 200 3760"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:53 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:13:53 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5017"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:14:00 +0000] \"GET /admin HTTP/1.1\" 200 5007"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:14:04 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:22:38 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5090"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:22:40 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:23:22 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:23:22 +0000] \"GET / HTTP/1.1\" 200 5099"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:23:48 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 5139"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:23:51 +0000] \"GET /cryptotrading HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:23:51 +0000] \"GET /login HTTP/1.1\" 200 3915"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:24:07 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:24:21 +0000] \"GET /cryptotrading HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:24:21 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:27:15 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:27:17 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:28:55 +0000] \"GET /login HTTP/1.1\" 200 3926"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:28:57 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:05 +0000] \"GET /register HTTP/1.1\" 200 4549"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:08 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:11 +0000] \"GET /register HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:14 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:16 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 5150"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:21 +0000] \"GET /cryptonews HTTP/1.1\" 200 5140"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:22 +0000] \"GET /cryptotrading HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:23 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:32 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:33 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5095"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:38 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:39 +0000] \"GET / HTTP/1.1\" 200 5110"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:42 +0000] \"GET /admin HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:29:42 +0000] \"GET /login HTTP/1.1\" 200 3926"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:30:02 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:30:03 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5096"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:30:07 +0000] \"GET /admin HTTP/1.1\" 302 74"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:30:07 +0000] \"GET /exceptions/401 HTTP/1.1\" 200 2987"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:25 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:26 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:39 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:41 +0000] \"GET /cryptonews HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:45 +0000] \"GET /about HTTP/1.1\" 200 5128"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:50 +0000] \"GET /settings HTTP/1.1\" 200 5165"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:54 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:56 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:31:59 +0000] \"GET /cryptonews HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:32:01 +0000] \"GET /cryptotrading HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:32:02 +0000] \"GET /login HTTP/1.1\" 200 3926"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:32:11 +0000] \"GET /cryptonews HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:32:14 +0000] \"GET /about HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:32:17 +0000] \"GET /admin HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:32:17 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:32:21 +0000] \"GET /settings HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"date":"Mon Jun 27 2022 14:35:58 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: webPostRegisterPage is not defined\nReferenceError: webPostRegisterPage is not defined\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:56:15)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)","os":{"loadavg":[0,0,0],"uptime":661615},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18722634,"external":23097971,"heapTotal":58118144,"heapUsed":29203472,"rss":66633728},"pid":4620,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: webPostRegisterPage is not defined\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:56:15)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)","trace":[{"column":15,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":56,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":31,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false}]}
+{"date":"Mon Jun 27 2022 14:36:15 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Route.post() requires a callback function but got a [object Undefined]\nError: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:57:10)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[0,0,0],"uptime":661631},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18722634,"external":23097971,"heapTotal":58118144,"heapUsed":29297904,"rss":66596864},"pid":4860,"uid":null,"version":"v16.14.2"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:57:10)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":15,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":211,"method":"<computed> [as post]","native":false},{"column":10,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":57,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":31,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"date":"Mon Jun 27 2022 14:45:31 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:39:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)","os":{"loadavg":[0,0,0],"uptime":662188},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18727588,"external":23102925,"heapTotal":58118144,"heapUsed":29251064,"rss":66678784},"pid":1516,"uid":null,"version":"v16.14.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:39:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)","trace":[{"column":15,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":211,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as get]","line":521,"method":"<computed> [as get]","native":false},{"column":8,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":31,"method":null,"native":false}]}
+{"date":"Mon Jun 27 2022 14:46:23 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:39:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)","os":{"loadavg":[0,0,0],"uptime":662240},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18711533,"external":23102925,"heapTotal":58118144,"heapUsed":28794728,"rss":66740224},"pid":13388,"uid":null,"version":"v16.14.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js:39:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js:31:19)","trace":[{"column":15,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":211,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as get]","line":521,"method":"<computed> [as get]","native":false},{"column":8,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\routes\\webRoutes.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js","function":null,"line":31,"method":null,"native":false}]}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:51:21 +0000] \"GET /about HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:51:23 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:51:27 +0000] \"GET /cryptotrading HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:51:28 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:51:48 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:51:49 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5095"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:51:58 +0000] \"GET /admin HTTP/1.1\" 200 5085"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:52:01 +0000] \"GET / HTTP/1.1\" 200 5022"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:53:06 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:53:09 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:53:16 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:53:16 +0000] \"GET / HTTP/1.1\" 200 5110"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:53:20 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:13:53:21 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:18:56:56 +0000] \"GET / HTTP/1.1\" 500 2170"}
+{"level":"info","message":"::1 - - [27/Jun/2022:18:56:57 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:18:57:24 +0000] \"GET / HTTP/1.1\" 500 2157"}
+{"level":"info","message":"::1 - - [27/Jun/2022:18:57:25 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:18:59:53 +0000] \"GET / HTTP/1.1\" 200 5018"}
+{"level":"info","message":"::1 - - [27/Jun/2022:18:59:54 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:00:03 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:00:05 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:00:53 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:00:54 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:01:08 +0000] \"GET /login HTTP/1.1\" 200 3834"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:01:27 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:01:28 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5003"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:02:26 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:02:28 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:03:51 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5107"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:03:53 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:03:55 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:03:56 +0000] \"GET / HTTP/1.1\" 200 5019"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:04:53 +0000] \"GET / HTTP/1.1\" 200 5014"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:04:55 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:06:03 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:06:05 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:06:12 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:06:13 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:06:56 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:06:58 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:07:01 +0000] \"GET /login HTTP/1.1\" 200 3830"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:07:18 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:07:18 +0000] \"GET /cryptotrading HTTP/1.1\" - -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:07:20 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:07:20 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5107"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"date":"Mon Jun 27 2022 20:11:25 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: req is not defined\nReferenceError: req is not defined\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\utils\\hbs_helpers.js:17:50)\n    at Object.wrapper (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n    at Object.eval [as main] (eval at createFunctionContext (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:11:129)\n    at main (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n    at Object.ret (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)\n    at Object.ret [as menubar] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\compiler.js:519:21)\n    at Object.invokePartialWrapper [as invokePartial] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:88:46)\n    at Object.eval [as main] (eval at createFunctionContext (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:11:28)\n    at main (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n    at Object.ret (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)","os":{"loadavg":[0,0,0],"uptime":681742},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\server.js"],"cwd":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18832042,"external":25371618,"heapTotal":60215296,"heapUsed":35362136,"rss":71663616},"pid":7252,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: req is not defined\n    at Object.<anonymous> (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\utils\\hbs_helpers.js:17:50)\n    at Object.wrapper (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js:15:19)\n    at Object.eval [as main] (eval at createFunctionContext (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:11:129)\n    at main (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n    at Object.ret (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)\n    at Object.ret [as menubar] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\compiler.js:519:21)\n    at Object.invokePartialWrapper [as invokePartial] (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:88:46)\n    at Object.eval [as main] (eval at createFunctionContext (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js:262:23), <anonymous>:11:28)\n    at main (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:208:32)\n    at Object.ret (C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js:212:12)","trace":[{"column":50,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\src\\utils\\hbs_helpers.js","function":null,"line":17,"method":null,"native":false},{"column":19,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\internal\\wrapHelper.js","function":"Object.wrapper","line":15,"method":"wrapper","native":false},{"column":23,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js","function":"Object.eval [as main] (eval at createFunctionContext","line":262,"method":"eval [as main] (eval at createFunctionContext","native":false},{"column":32,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js","function":"main","line":208,"method":null,"native":false},{"column":12,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js","function":"Object.ret","line":212,"method":"ret","native":false},{"column":21,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\compiler.js","function":"Object.ret [as menubar]","line":519,"method":"ret [as menubar]","native":false},{"column":46,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js","function":"Object.invokePartialWrapper [as invokePartial]","line":88,"method":"invokePartialWrapper [as invokePartial]","native":false},{"column":23,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\compiler\\javascript-compiler.js","function":"Object.eval [as main] (eval at createFunctionContext","line":262,"method":"eval [as main] (eval at createFunctionContext","native":false},{"column":32,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js","function":"main","line":208,"method":null,"native":false},{"column":12,"file":"C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\node_modules\\handlebars\\dist\\cjs\\handlebars\\runtime.js","function":"Object.ret","line":212,"method":"ret","native":false}]}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:11:26 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5015"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:11:28 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:12:08 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:12:10 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:16:32 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:16:34 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:20:44 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:20:47 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:24:45 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:24:48 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:26:53 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:26:56 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:28:47 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:28:50 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:32:44 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:32:46 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:33:35 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:33:37 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:34:04 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:34:06 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:34:34 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:34:37 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:35:15 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:35:17 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:35:59 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5107"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:36:00 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:42:19 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:42:20 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:45:45 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:45:47 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:47:44 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:47:46 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:50:37 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:50:40 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:51:15 +0000] \"GET /admin HTTP/1.1\" 200 5097"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:52:03 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:52:06 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:53:25 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:53:27 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:55:42 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:55:44 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:58:00 +0000] \"GET / HTTP/1.1\" 200 5034"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:59:11 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:19:59:13 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:00:11 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:00:13 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:00:39 +0000] \"GET /cryptocurrencies HTTP/1.1\" - -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:00:42 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:00:45 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:00:48 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 5074"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:00:57 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:02:28 +0000] \"GET /cryptotrading HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:02:30 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:02:34 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:02:41 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:02:42 +0000] \"GET / HTTP/1.1\" 500 1611"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:15 +0000] \"GET / HTTP/1.1\" 200 5014"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:16 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:29 +0000] \"GET /cryptotrading HTTP/1.1\" 302 56"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:30 +0000] \"GET /login HTTP/1.1\" 200 3830"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:33 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:36 +0000] \"GET /login HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:45 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:46 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5000"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:07:59 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 4966"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:10:17 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 4846"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:10:19 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:11:52 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 4741"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:11:54 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:13:15 +0000] \"GET /cryptocurrencies HTTP/1.1\" 500 2108"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:13:17 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:14:44 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 4860"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:14:46 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:10 +0000] \"GET /logout HTTP/1.1\" - -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:13 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:13 +0000] \"GET / HTTP/1.1\" 200 4785"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:28 +0000] \"GET /cryptocurrencies HTTP/1.1\" 200 4825"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:31 +0000] \"GET /cryptonews HTTP/1.1\" 200 4815"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:32 +0000] \"GET /about HTTP/1.1\" 200 4803"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:37 +0000] \"GET /register HTTP/1.1\" 200 4224"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:39 +0000] \"GET /login HTTP/1.1\" 200 3601"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:52 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:15:54 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5125"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:16:01 +0000] \"GET /admin HTTP/1.1\" 200 5115"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:16:04 +0000] \"GET /settings HTTP/1.1\" 200 5107"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:16:10 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:16:10 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:18:53 +0000] \"GET / HTTP/1.1\" - -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:19:03 +0000] \"GET / HTTP/1.1\" 200 4785"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:19:04 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:19:15 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:19:18 +0000] \"GET / HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:19:23 +0000] \"GET /about HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [27/Jun/2022:20:20:43 +0000] \"GET / HTTP/1.1\" 304 -"}
