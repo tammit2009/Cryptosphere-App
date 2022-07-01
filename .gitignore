@@ -2,4 +2,6 @@ node_modules/
 venv/
 docs/
 config/
+logs/
+test/
 .env
