@@ -28,10 +28,12 @@ const { credentials }          = require('./middleware/auth');
  
 const { ignoreFavicon, notFound, errorHandler, } = require('./middleware/utils');
 
-const webRoutes = require('./routes/webRoutes');
-const apiRoutes = require('./routes/apiRoutes');
-// const traderbotRoutes = require('./routes/traderbotRoutes');
-// const cryptosphereRoutes = require('./routes/cryptosphereRoutes');
+const binancews       = require('./proxyApi/binance/binancews');
+
+const webRoutes       = require('./routes/webRoutes');
+const apiRoutes       = require('./routes/apiRoutes');
+const proxyAPI        = require('./proxyApi');
+const traderbotRoutes = require('./routes/traderbotRoutes');
 
 ///////////////////////////////////////////////////
 // initializations
@@ -45,6 +47,24 @@ const port = process.env.PORT || 3000;
 
 //////////////////////////////////////////////////////////////////////////////
 
+// Web socket connections and listeners
+
+io.on('connection', (socket) => {
+    console.log(`New socket connection established with id ${socket.id}`);
+
+    // Detect change of symbol from the UI
+    socket.on('SYMBOL', (payload) => {
+        binancews.switchSymbol(payload);
+    });
+});
+  
+// Event Emitter
+binancews.EE.on('OBUPDATES', (payload) => {
+    io.emit('OBUPDATES', payload);
+});
+
+//////////////////////////////////////////////////////////////////////////////
+
 // console.log(Math.floor(Math.random() * 1000000));
 
 // test environment variables
@@ -52,8 +72,8 @@ console.log(process.env.NODE_ENV);
 
 // define paths for express config
 const publicDirPath = path.join(__dirname, '../public');
-const viewsPath = path.join(__dirname, '../templates/views');
-const partialsPath = path.join(__dirname, '../templates/partials');
+const viewsPath     = path.join(__dirname, '../templates/views');
+const partialsPath  = path.join(__dirname, '../templates/partials');
 
 // setup static directory to serve
 app.use(express.static(publicDirPath));
@@ -136,11 +156,10 @@ app.get('/session', (req, res) => {
 	}
 });
 
-app.use('/',        webRoutes);
-app.use('/api/v1', 	apiRoutes);
-
-// app.use('/cryptosphere', cryptosphereRoutes);
-// app.use('/traderbot',    traderbotRoutes);
+app.use('/',            webRoutes);
+app.use('/api/v1', 	    apiRoutes);
+app.use('/proxy',       proxyAPI);
+app.use('/traderbot',   traderbotRoutes);
 
 ///////////////////////////////////////////////////////////////
 // error handlers

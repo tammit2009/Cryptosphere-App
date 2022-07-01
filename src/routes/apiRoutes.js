@@ -143,6 +143,17 @@ router
         .delete(validateApiKey, deleteCheese);
 
 
+/*
+ * TradingView Demo Routes
+ */
+
+const { 
+    getTradingViewDemoData,
+} = require('../controllers/tvdemoApiController');
+        
+router.route('/tvdemo/:symbol/:interval').get(getTradingViewDemoData);
+
+
 // Exports
 module.exports = router;
 

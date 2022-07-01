@@ -24,10 +24,19 @@ const {
     getSettingsPage,
     getUnauthorizedPage,
     getUnknownPage,
+    getWeatherPage,
     webLoginPage,
     webRegisterPage, 
     webPostRegisterPage,
     webLogoutUser,
+    // --- demos ---
+    getOBVizDemo,
+    getOBDepthDemo,
+    getTradingViewDemo,
+    getCoinViewDemo,
+    coinviewBuy,
+    coinviewSell,
+    coinviewHistory
 } = require('../controllers/webController.js');
 
 // routes
@@ -37,11 +46,21 @@ router.get('/cryptocurrencies', getCryptocurrencies);
 router.get('/cryptodetails',    getCryptoDetails);
 router.get('/cryptonews',       getCryptoNews);
 router.get('/cryptotrading',    webAuth, getTradingIndex);
+
 router.get('/admin',            webAuth, webAdminRole, getAdmin);  // webVerifyRoles(ROLES.Admin)
 router.get('/settings',         webAuth, webAdminRole, getSettingsPage);
+router.get('/weather',          getWeatherPage);
 
 router.get('/exceptions/401',   getUnauthorizedPage);
 router.get('/exceptions/404',   getUnknownPage);
+
+router.get('/obvizdemo',        getOBVizDemo);  
+router.get('/obdepthdemo',      getOBDepthDemo); 
+router.get('/tvdemo',           getTradingViewDemo);
+router.get('/coinview',         getCoinViewDemo);
+router.post('/coinview/buy',    coinviewBuy);
+router.post('/coinview/sell',   coinviewSell);
+router.get('/coinview/history', coinviewHistory);
 
 router
     .route('/login')
@@ -54,7 +73,7 @@ router
                 failureFlash: true }));
 router
     .route('/register')
-        .get(webRegisterPage)
+        // .get(webRegisterPage)
         .post(webPostRegisterPage);
 router.get('/profile',             webAuth, webProfilePage); // can also use "passportConf.isAuthenticated" here instead
 router

@@ -1,8 +1,347 @@
+<link rel="stylesheet" href="/css/local/home.css">
 
 <div class="container">
+
     <!-- Main Content -->
-    <div class="wrapper" style="height: 90vh; margin-top: 80px;">
-        <h3>Home Page</h3>
-        <p>Welcome, this is a public area!</p>
+    <div class="wrapper" style="min-height: 90vh; margin-top: 80px;">
+
+        <section>
+            <div class="dashboard-header mb-5">
+                <h2>Global Crypto Stats</h2>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card card-stats mb-4 mb-xl-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title text-uppercase text-muted mb-0" id="total-cryptos-label">Total Cryptos</h5>
+                                    <span class="h2 font-weight-bold mb-0" id="total-cryptos">{{stats.totalCoins}}</span>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
+                                        <i class="fas fa-coins"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            {{!-- <p class="mt-3 mb-0 text-muted text-sm">
+                                <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                                <span class="text-nowrap">Since last month</span>
+                            </p> --}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card card-stats mb-4 mb-xl-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title text-uppercase text-muted mb-0">Total Exchanges</h5>
+                                    <span class="h2 font-weight-bold mb-0">{{stats.totalExchanges}}</span>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                                        <i class="fas fa-landmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            {{!-- <p class="mt-3 mb-0 text-muted text-sm">
+                                <span class="text-danger mr-2"><i class="fas fa-arrow-down"></i> 3.48%</span>
+                                <span class="text-nowrap">Since last week</span>
+                            </p> --}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card card-stats mb-4 mb-xl-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title text-uppercase text-muted mb-0">Total Market Cap</h5>
+                                    <span class="h2 font-weight-bold mb-0">{{stats.totalMarketCap}}</span>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="icon icon-shape bg-success text-white rounded-circle shadow">
+                                        <i class="fas fa-money-bill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            {{!-- <p class="mt-3 mb-0 text-muted text-sm">
+                                <span class="text-warning mr-2"><i class="fas fa-arrow-down"></i> 1.10%</span>
+                                <span class="text-nowrap">Since yesterday</span>
+                            </p> --}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card card-stats mb-4 mb-xl-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title text-uppercase text-muted mb-0">Total 24h Volume</h5>
+                                    <span class="h2 font-weight-bold mb-0">{{stats.total24hVolume}}</span>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="icon icon-shape bg-info text-white rounded-circle shadow">
+                                        <i class="fas fa-poll"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            {{!-- <p class="mt-3 mb-0 text-muted text-sm">
+                                <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
+                                <span class="text-nowrap">Since last month</span>
+                            </p> --}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card card-stats mb-4 mb-xl-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title text-uppercase text-muted mb-0">Total Markets</h5>
+                                    <span class="h2 font-weight-bold mb-0">{{stats.totalMarkets}}</span>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="icon icon-shape bg-secondary text-white rounded-circle shadow">
+                                        <i class="fas fa-comments-dollar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            {{!-- <p class="mt-3 mb-0 text-muted text-sm">
+                                <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
+                                <span class="text-nowrap">Since last month</span>
+                            </p> --}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card card-stats mb-4 mb-xl-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title text-uppercase text-muted mb-0">Performance</h5>
+                                    <span class="h2 font-weight-bold mb-0">-- %</span>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="icon icon-shape bg-primary text-white rounded-circle shadow">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            {{!-- <p class="mt-3 mb-0 text-muted text-sm">
+                                <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
+                                <span class="text-nowrap">Since last month</span>
+                            </p> --}}
+                        </div>
+                    </div>
+                </div>                                
+                
+            </div>
+        </section>
+        
+        <br/><br/>
+
+        <section>
+            <div class="dashboard-header d-flex justify-content-between align-items-center mb-3">
+                <h2>Top 12 Cryptocurrencies</h2>
+                <a class="show-more-link" href="#"><h4>Show More</h4></a>
+            </div>
+
+            <div class="row">
+
+                {{#ifCond coins.length ">" 0 }}
+                    {{#each coins}}
+
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card rounded-0">
+                            <div class="card-header bg-white">
+                                <div class="row">
+                                    <div class="col">
+                                        {{!-- for object iteration, use '{{(at)key}}' instead --}}
+                                        <h5 class="card-title mb-0 pt-1">{{inc @index}}. {{name}}</h5>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img class="crypto-image" src="{{iconUrl}}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="crypto-card-summary pb-3">
+                                    <p class="card-text">Price: {{price}}</p>
+                                    <p class="card-text">Market Cap: {{marketCap}}</p>
+                                    <p class="card-text">Daily Change: {{change}}%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{/each}}
+                {{/ifCond}} 
+
+            </div>
+        </section>
+
+        <br/><br/>
+
+        <section>
+            <div class="dashboard-header d-flex justify-content-between align-items-center mb-3">
+                <h2>Latest Crypto News</h2>
+                <a class="show-more-link" href="#"><h4>Show More</h4></a>
+            </div>
+
+            <div class="row">
+
+                {{#ifCond news.length ">" 0 }}
+                    {{#each news}}
+
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card h-100 rounded-0">
+                            <div class="card-body">
+                                <a href="{{url}}" 
+                                    style="text-decoration: none; color: #333;" target="_blank" rel="noreferrer">
+                                    <div class="row mb-2">
+                                        <div class="col">
+                                            <h5 class="card-title mb-0 pt-1">{{name}}</h5>
+                                        </div>
+                                        <div class="col-auto">
+                                            <img src="{{newsImage}}" alt="news" style="max-width: 200px; max-height: 100px;">
+                                        </div>
+                                    </div>
+                                    <div class="crypto-card-news-snippet pb-3">
+                                        <p class="card-text">{{description}}</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col d-flex align-items-center">
+                                            <span class="provider-avatar">
+                                                <img class="provider-avatar-image" src="{{providerImage}}">
+                                            </span>
+                                            <span class="provider-name">{{providerName}}</span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <span class="provider-sourced-date">{{datePublished}}</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{/each}}
+                {{/ifCond}} 
+
+                {{!-- <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card rounded-0">
+                        <div class="card-body">
+                            <a href="https://insidebitcoins.com/news/5-best-cheap-cryptocurrency-to-buy-june-2022-week-4-2" 
+                                style="text-decoration: none; color: #333;" target="_blank" rel="noreferrer">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <h5 class="card-title mb-0 pt-1">5 Best Cheap Cryptocurrency to Buy – June 2022 Week 4</h5>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="https://www.bing.com/th?id=OVFT.Cbox7a3neVcqg-sHULQeKS&amp;pid=News" alt="news" style="max-width: 200px; max-height: 100px;">
+                                    </div>
+                                </div>
+                                <div class="crypto-card-news-snippet pb-3">
+                                    <p class="card-text">Prepare for the inevitable - but long-delayed - recovery with our pick of the 5 best cheap cryptocurrency to buy right now.</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex align-items-center">
+                                        <span class="provider-avatar">
+                                            <img class="provider-avatar-image" src="https://www.bing.com/th?id=ODF.xJeI9n0sq43e8acqzUtULA&amp;pid=news">
+                                        </span>
+                                        <span class="provider-name">Inside Bitcoins</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <span class="provider-sourced-date">2 hours ago</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card rounded-0">
+                        <div class="card-body">
+                            <a href="https://www.msn.com/en-in/money/news/cryptocurrency-price-today-bitcoin-loses-dollar21000-level-ether-dogecoin-lose-up-to-7percent/ar-AAYWOnI" 
+                                style="text-decoration: none; color: #333;" target="_blank" rel="noreferrer">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <h5 class="card-title mb-0 pt-1">Cryptocurrency Price Today: Bitcoin Loses $21,000 Level, Ether, Dogecoin Lose Up To 7%</h5>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="https://www.bing.com/th?id=OVFT.4Ye6ol5t8H1DNjL15TCECS&amp;pid=News" alt="news" style="max-width: 200px; max-height: 100px;">
+                                    </div>
+                                </div>
+                                <div class="crypto-card-news-snippet pb-3">
+                                    <p class="card-text">Bitcoin price today dipped slightly to go below the $21,000 levels but comfortably stayed within the $20,000 mark.</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex align-items-center">
+                                        <span class="provider-avatar">
+                                            <img class="provider-avatar-image" src="https://www.bing.com/th?id=ODF.FPGiCjSpNWuR3YuGCSVHjA&amp;pid=news">
+                                        </span>
+                                        <span class="provider-name">MSN</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <span class="provider-sourced-date">an hour ago</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card rounded-0">
+                        <div class="card-body">
+                            <a href="https://www.livemint.com/market/cryptocurrency/cryptocurrency-prices-today-plunge-as-bitcoin-falls-below-21-000-dogecoin-solana-fall-7-11656383481913.html" 
+                                style="text-decoration: none; color: #333;" target="_blank" rel="noreferrer">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <h5 class="card-title mb-0 pt-1">Cryptocurrency prices today plunge as Bitcoin falls below $21,000; dogecoin, Solana dip 7%</h5>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="https://www.bing.com/th?id=OVFT.n-UE_pZgCX6iRDuLcWE1bS&amp;pid=News" alt="news" style="max-width: 200px; max-height: 100px;">
+                                    </div>
+                                </div>
+                                <div class="crypto-card-news-snippet pb-3">
+                                    <p class="card-text">In cryptocurrencies, the world's largest and most popular c Bitcoin plunged over 2% and was trading at $20,610. The global market cap today was below the $1 trillion...</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex align-items-center">
+                                        <span class="provider-avatar">
+                                            <img class="provider-avatar-image" src="https://www.bing.com/th?id=ODF.W8vM8p2PIvfc6Sh2F0nZpA&amp;pid=news">
+                                        </span>
+                                        <span class="provider-name">Mint</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <span class="provider-sourced-date">9 hours ago</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> --}}
+
+
+
+            </div>
+        </section>
+
+        <br/><br/>
+
     </div>
 </div>
+
+
+<script src="/js/local/mymillify.js"></script>
+<script src="/js/local/home.js"></script>

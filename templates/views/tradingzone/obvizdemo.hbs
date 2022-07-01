@@ -1,0 +1,234 @@
+<!-- OrderBook Vizualization Demo Content -->
+<script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+
+<div class="container">
+    <!-- Main Content -->
+    <div class="wrapper" style="min-height: 90vh; margin-top: 80px;">
+        <div class="row">
+            <h3>Visualize OrderBook</h3>
+        </div>
+
+        <div class="row">
+            <input type="text" id="symbol" class="col-sm-2" placeholder="Symbol" value="BTCUSDT">
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" id="chartContainer1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" id="chartContainer2">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var symbol = document.getElementById('symbol').value;
+
+    // orderBook();
+    setInterval(orderBook, 1000);
+
+    // trades();
+    // aggregateTrades();
+    // ticker();
+    // bookTicker();
+
+    function orderBook() {
+        var ourRequest = new XMLHttpRequest();
+        ourRequest.open('GET', `https://api.binance.com/api/v3/depth?symbol=${symbol}&limit=5`, true); // true = asynchronously
+        ourRequest.onload = function() {
+            ourData = JSON.parse(ourRequest.responseText);
+            // console.log(ourData);
+
+            xAsks = [], yAsks = [], xBids = [], yBids = [];
+
+            // Collect data for asks
+            for (let i=0; i<5; i++) {
+                xAsks.push(parseFloat(ourData['asks'][i][1]));                       // qty
+                yAsks.push((ourData['asks'][i][0]*1).toString() + '_');              // price
+            }
+
+            // Collect data for bids
+            for (let i=4; i>=0; i--) {
+                xBids.push(parseFloat(ourData['bids'][i][1]));                      // qty
+                yBids.push((ourData['bids'][i][0]*1).toString() + '-');              // price
+            }
+
+            // Display Chart for asks
+            var data1 = [{
+                type: 'bar',
+                x: xAsks,
+                y: yAsks,
+                marker: {
+                    color: 'rgb(160, 9, 9)',
+                },
+                orientation: 'h',
+            }];
+
+            var layout1 = {
+                title: "Asks",
+                height: 300
+            };
+
+            Plotly.newPlot('chartContainer1', data1, layout1);
+
+            // Display Chart for bids
+            var data2 = [{
+                type: 'bar',
+                x: xBids,
+                y: yBids,
+                marker: {
+                    color: 'rgb(3, 119, 73)',
+                },
+                orientation: 'h'
+            }];
+
+            var layout2 = {
+                title: "Bids",
+                height: 300
+            };
+
+            Plotly.newPlot('chartContainer2', data2, layout2);
+        }
+        ourRequest.send();
+
+        /*
+        {
+            "lastUpdateId": 1027024,
+            "bids": [
+                [
+                "4.00000000",     // PRICE
+                "431.00000000"    // QTY
+                ]
+            ],
+            "asks": [
+                [
+                "4.00000200",
+                "12.00000000"
+                ]
+            ]
+        }
+        */
+    }
+
+
+    // Recent Trades List
+    function trades() {
+        var ourRequest = new XMLHttpRequest();
+        ourRequest.open('GET', `https://api.binance.com/api/v3/trades?symbol=${symbol}&limit=5`, true); 
+        ourRequest.onload = function() {
+            ourData = JSON.parse(ourRequest.responseText);
+            console.log(ourData);
+
+        }
+        // ourRequest.send();
+
+        /*
+        [
+            {
+                "id": 28457,
+                "price": "4.00000100",
+                "qty": "12.00000000",
+                "quoteQty": "48.000012",
+                "time": 1499865549590,
+                "isBuyerMaker": true,
+                "isBestMatch": true
+            }
+        ]
+        */
+    }
+
+    // Compressed/Aggregate trades list
+    function aggregateTrades() {
+        var ourRequest = new XMLHttpRequest();
+        ourRequest.open('GET', `https://api.binance.com/api/v3/aggTrades?symbol=${symbol}&limit=500`, true); 
+        ourRequest.onload = function() {
+            ourData = JSON.parse(ourRequest.responseText);
+            // console.log(ourData);
+
+        }
+        ourRequest.send();
+
+        /*
+        // If both startTime and endTime are sent, time between startTime and endTime must be less than 1 hour.
+        // If fromId, startTime, and endTime are not sent, the most recent aggregate trades will be returned.
+        [
+            {
+                "a": 26129,         // Aggregate tradeId
+                "p": "0.01633102",  // Price
+                "q": "4.70443515",  // Quantity
+                "f": 27781,         // First tradeId
+                "l": 27781,         // Last tradeId
+                "T": 1498793709153, // Timestamp
+                "m": true,          // Was the buyer the maker?
+                "M": true           // Was the trade the best price match?
+            }
+        ]
+        */
+    }
+
+
+    // Symbol(s) Price Ticker - Latest price for a symbol or symbols.
+    function ticker() { 
+        var ourRequest = new XMLHttpRequest();
+        ourRequest.open('GET', `https://api.binance.com/api/v3/ticker/price?symbol=${symbol}`, true); 
+        ourRequest.onload = function() {
+            ourData = JSON.parse(ourRequest.responseText);
+            // console.log(ourData);
+
+        }
+        ourRequest.send();
+
+        /*
+        {
+            "symbol": "LTCBTC",
+            "price": "4.00000200"
+        }
+        // OR
+        [
+            {
+                "symbol": "LTCBTC",
+                "price": "4.00000200"
+            },
+            {
+                "symbol": "ETHBTC",
+                "price": "0.07946600"
+            }
+        ]
+        */
+    }
+
+
+    // Symbol order book ticker - Best price/qty on the order book for a symbol or symbols.
+    function bookTicker() { 
+        var ourRequest = new XMLHttpRequest();
+        ourRequest.open('GET', `https://api.binance.com/api/v3/ticker/bookTicker?symbol=${symbol}`, true); 
+        ourRequest.onload = function() {
+            ourData = JSON.parse(ourRequest.responseText);
+            console.log(ourData);
+
+        }
+        ourRequest.send();
+
+        /*
+        {
+            "symbol": "LTCBTC",
+            "price": "4.00000200"
+        }
+        // OR
+        [
+            {
+                "symbol": "LTCBTC",
+                "price": "4.00000200"
+            },
+            {
+                "symbol": "ETHBTC",
+                "price": "0.07946600"
+            }
+        ]
+        */
+    }
+
+</script>

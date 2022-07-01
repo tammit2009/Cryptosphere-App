@@ -6,24 +6,14 @@
     "auditLog": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\logs\\.08e0947fa16c4c4949d75629531ce80e981d66b6-audit.json",
     "files": [
         {
-            "date": 1656063733021,
-            "name": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\logs\\CryptosphereApp-2022-06-24.log",
-            "hash": "99ca329079a63e52fefa9835732e71192aa22a7726afcd11d4f24cd0b85e4e47"
+            "date": 1656622810925,
+            "name": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\logs\\CryptosphereApp-2022-06-30.log",
+            "hash": "84f8661013805a97340402dad038816fffdb87b3c2b2643124d1e9e4e39587df"
         },
         {
-            "date": 1656150528586,
-            "name": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\logs\\CryptosphereApp-2022-06-25.log",
-            "hash": "b62375216cbfac34fce280bb8eb5e308efe3f4937b87d665b4391e21f236a3ef"
-        },
-        {
-            "date": 1656240240702,
-            "name": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\logs\\CryptosphereApp-2022-06-26.log",
-            "hash": "b7c0dd9552485f37db329c1a61dda026a33794941c3573a5f9acdab4343f2f0a"
-        },
-        {
-            "date": 1656320237566,
-            "name": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\logs\\CryptosphereApp-2022-06-27.log",
-            "hash": "ca3a10b2c0afa443dde51622810e04cdcb16c938f7194cc2c42f2c603d105733"
+            "date": 1656663119571,
+            "name": "C:\\Users\\Tammi\\Dropbox\\KustomDevOps\\CloudApps\\11_cryptosphere_v2\\logs\\CryptosphereApp-2022-07-01.log",
+            "hash": "28ed2ca8a364affba8dfe91c49f7ca69731075d78ddd1233157263a4d791c39f"
         }
     ],
     "hashType": "sha256"

@@ -22,6 +22,10 @@ const registerHbsHelpers = (hbs) => {
         return options.fn(this);
     });
 
+    hbs.registerHelper("inc", function(value, options) {
+        return parseInt(value) + 1;
+    });
+
     hbs.registerHelper('ifNotExistOrTypeofndef', function (value, options) { 
         return (value === undefined || value === "") ? options.fn(this) : options.inverse(this); 
     });

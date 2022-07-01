@@ -1,0 +1,22 @@
+{"level":"info","message":"Server is up on port 5000!"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:00:21 +0000] \"GET /obdepthdemo HTTP/1.1\" 200 18305"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:00:23 +0000] \"GET /favicon.ico HTTP/1.1\" 304 -"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jun/2022:21:00:33 +0000] \"GET /proxy/coinranking/cryptos?count=12 HTTP/1.1\" 200 11404"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jun/2022:21:00:35 +0000] \"GET /proxy/bingnews/cryptonews?q=crypto&count=6 HTTP/1.1\" 200 7104"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:00:35 +0000] \"GET / HTTP/1.1\" 200 40871"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:03:56 +0000] \"GET /login HTTP/1.1\" 200 3511"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:04:08 +0000] \"POST /login HTTP/1.1\" 302 72"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:04:09 +0000] \"GET /cryptotrading HTTP/1.1\" 200 5125"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:04:14 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:04:17 +0000] \"GET /cryptocurrencies HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:04:29 +0000] \"GET /admin HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:04:32 +0000] \"GET /logout HTTP/1.1\" 302 46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jun/2022:21:04:33 +0000] \"GET /proxy/coinranking/cryptos?count=12 HTTP/1.1\" 200 11389"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jun/2022:21:04:35 +0000] \"GET /proxy/bingnews/cryptonews?q=crypto&count=6 HTTP/1.1\" 200 7169"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:04:35 +0000] \"GET / HTTP/1.1\" 200 40993"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:04:57 +0000] \"GET /tvdemo HTTP/1.1\" 404 234"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:05:21 +0000] \"GET /obvizdemo HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:06:54 +0000] \"GET /obdepthdemo HTTP/1.1\" 304 -"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:07:04 +0000] \"GET /proxy/binance/obdepth_serveapi?symbol=ETHUSDT&limit=1000 HTTP/1.1\" 200 61935"}
+{"level":"info","message":"::1 - - [30/Jun/2022:21:07:14 +0000] \"GET /proxy/binance/obdepth_serveapi?symbol=BTCUSDT&limit=1000 HTTP/1.1\" 200 64070"}
+{"level":"info","message":"Server is up on port 5000!"}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinView</title>
+    <script src="/vendor/lwcharts/tradingview.js"></script>
+</head>
+<body>
+    <h2>{{title}}</h2>
+
+    <div id="chart"></div>
+
+    <div id="trades"></div>
+
+        <div style="border: solid gray 1px; padding: 20px; width: 600px; margin-top: 20px;">
+        <h3>Buy Crypto</h3>
+
+        {{#ifCond messages.length ">" 0 }}
+            <div style="padding:10px; background-color: rgb(212, 255, 192); border: solid rgb(91, 241, 136) 1px; color: red; margin-bottom: 15px;">
+            {{#each messages}}
+                {{ this }}
+            {{/each}}
+            </div>
+        {{/ifCond}} 
+
+        {{#ifCond errors.length ">" 0 }}
+            <div style="padding:10px; background-color: pink; border: solid red 1px; color: red; margin-bottom: 15px;">
+            {{#each errors}}
+                {{ this }}
+            {{/each}}
+            </div>
+        {{/ifCond}} 
+        
+        <form action="/coinview/buy" method="post">
+            <input type="text" id="quantity" name="quantity" placeholder="e.g. 0.0001">      
+            <select name="symbol" id="symbols">
+                {{#each symbols}}
+                    {{#ifCond this.symbol "===" "BTCBUSD"}}
+                        <option selected>{{ this.symbol }}</option>
+                    {{else}}
+                        <option>{{ this.symbol }}</option>
+                    {{/ifCond}}
+                {{/each}}
+            </select>
+            <input type="submit" name="buy" value="Buy"/>
+        </form>
+
+    </div>
+
+    <h3>Settings</h3>
+
+    <div id="settings">
+        <input type="checkbox"> RSI
+        <input type="text" id="rsi_length" name="rsi_length" placeholder="14" style="width: 100px; margin-right: 10px;" />
+        Overbought
+        <input type="text" id="rsi_overbought" name="rsi_oversold" placeholder="70" style="width: 100px;">
+        Oversold
+        <input type="text" id="rsi_oversold" name="rsi_oversold" placeholder="30" style="width: 100px; margin-right: 10px;">
+
+    </div>
+
+    <div id="my_balances">
+        <h2>Balances</h2>
+
+        <table>
+            {{#each balances}}
+            <tr>
+                <td>{{ this.asset }}</td>
+                <td>{{ this.free }}</td>
+            </tr>
+            {{/each}}
+        </table>
+        
+    </div>
+    
+    <script>
+        
+        var binanceSocket = new WebSocket("wss://stream.binance.com:9443/ws/btcbusd@kline_15m");
+
+        var tradeDiv = document.getElementById('trades');
+
+        binanceSocket.onmessage = function (event) {
+            var message = JSON.parse(event.data);
+
+            var candlestick = message.k;
+            candleSeries.update({
+                time:   candlestick.t / 1000,
+                open:   candlestick.o,
+                high:   candlestick.h,
+                low:    candlestick.l,
+                close:  candlestick.c
+            })
+        }
+        
+    </script>
+
+    <script src="/js/local/coinview_chart.js"></script>
+</body>
+</html>

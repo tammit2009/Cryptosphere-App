@@ -1,12 +1,65 @@
 /* Web Controller */
 
 const asyncHandler  = require('express-async-handler');
+const axios = require('axios');
+const moment = require('moment');
+
+const { formatCount } = require('../utils/helpers');
+
+const baseUrl = process.env.BASE_URL;
 
 // View the Index page
 // Method: 'GET', url = '/', Access: 'Public'
 const getIndexPage = asyncHandler(async (req, res, next) => {
-    
+
+    const coinList = await axios.get(`${baseUrl}/proxy/coinranking/cryptos?count=12`);
+
+    const cryptoStats = coinList.data.data.stats;
+    const coinData = coinList.data.data.coins;
+
+    const stats = {
+        totalCoins: Intl.NumberFormat().format(cryptoStats.totalCoins),
+        totalMarkets:   formatCount(cryptoStats.totalMarkets, true, 1),
+        totalExchanges: formatCount(cryptoStats.totalExchanges, true, 1),
+        totalMarketCap: formatCount(cryptoStats.totalMarketCap, true, 1),
+        total24hVolume: formatCount(cryptoStats.total24hVolume, true, 1),
+    }
+
+    const coins = coinData.map((coin) => {
+        return {
+            uuid: coin.uuid,
+            symbol: coin.symbol,
+            name: coin.name,
+            iconUrl: coin.iconUrl,
+            marketCap: formatCount(parseFloat(coin.marketCap), true, 1),
+            price: Intl.NumberFormat().format(parseFloat(coin.price).toFixed(2)),
+            listedAt: coin.listedAt,
+            tier: coin.tier,
+            change: coin.change,
+            rank: coin.rank,
+            coinrankingUrl: coin.coinrankingUrl,
+            volume24Hours: coin['24hVolume'],
+            btcPrice: coin.btcPrice
+        }
+    });
+
+    const cryptoNews = await axios.get(`${baseUrl}/proxy/bingnews/cryptonews?q=crypto&count=6`);
+    const news = cryptoNews.data.value.map((neu) => {
+        return {
+            name: neu.name,
+            url: neu.url,
+            newsImage: neu?.image?.thumbnail?.contentUrl,
+            description: neu.description,
+            providerName: neu.provider[0]?.name,
+            providerImage: neu.provider[0]?.image?.thumbnail?.contentUrl,
+            datePublished: moment(neu.datePublished).fromNow()
+        }
+    });    
+
     const data = {
+        stats,
+        coins,
+        news,
         user: req.user,
         roles: (req.user) ? await req.user.getRuids() : []
     };
@@ -42,6 +95,9 @@ const getCryptoDetails = asyncHandler(async (req, res, next) => {
 // Method: 'GET', url = '/cryptonews', Access: 'Public'
 const getCryptoNews = asyncHandler(async (req, res, next) => {
 
+    // const cryptoNews = await axios.get(`${baseUrl}/proxy/bingnews/cryptonews?q=crypto&count=10`);
+    // console.log(cryptoNews);
+
     const data = {
         user: req.user,
         roles: (req.user) ? await req.user.getRuids() : []
@@ -61,6 +117,7 @@ const getTradingIndex = asyncHandler(async (req, res, next) => {
 
     res.render('tradingzone/index', data); 
 }); 
+
 
 // Admin Index Page
 // Method: 'GET', url = '/admin', Access: 'Private/Admin'
@@ -233,8 +290,6 @@ const webPostRegisterPage = (req, res, next) => {
     // ]);
 }; 
 
-
-
 // View the Profile page
 // Method: 'GET', url = '/profile', Access: 'Private'
 const webProfilePage = asyncHandler(async (req, res, next) => {
@@ -318,6 +373,161 @@ const webLogoutUser = asyncHandler(async (req, res) => {
 }); 
 
 
+/////////////////////////////// DEMOS /////////////////////////////////////
+
+// View the Weather page (not shown by default)
+// Method: 'GET', url = '/weather', Access: 'Public'
+const getWeatherPage = asyncHandler(async (req, res, next) => {
+
+    res.render('weather/index', {
+        title: 'Weather',
+        name: 'Kustomlynx',
+        layout: false   // dont use any layout
+    });
+}); 
+
+// OrderBook Vizualization Demo Page
+// Method: 'GET', url = '/obvizdemo', Access: 'Public'
+const getOBVizDemo = asyncHandler(async (req, res, next) => {
+
+    let data = {
+        user: req.user,
+        roles: (req.user) ? await req.user.getRuids() : []
+    };
+
+    res.render('tradingzone/obvizdemo', data); 
+}); 
+
+// OrderBook Depth Chart Demo Page
+// Method: 'GET', url = '/obdepthdemo', Access: 'Public'
+const getOBDepthDemo = asyncHandler(async (req, res, next) => {
+
+    let data = {
+        user: req.user,
+        roles: (req.user) ? await req.user.getRuids() : []
+    };
+
+    res.render('tradingzone/obdepthdemo', data); 
+}); 
+
+// View tradingview demo page
+// Method: 'GET', url = '/tvdemo', Access: 'Public'
+const getTradingViewDemo = asyncHandler(async (req, res, next) => {
+
+    let data = {
+        layout: false     // layout not required
+    }
+
+    res.render('tvdemo/index', data); 
+}); 
+
+// --------- CoinView --------------------------------------
+
+const {
+    getAccountInfo, buyCrypto, sellCrypto, getCryptoHistory
+} = require('../apps/coinview/coinview_libs');
+
+
+// View CoinView demo page
+// Method: 'GET', url = '/coinview', Access: 'Public'
+const getCoinViewDemo = asyncHandler(async (req, res, next) => {
+
+    const jsonInfo = await getAccountInfo();
+    const info = JSON.parse(jsonInfo)
+
+    const account = Object.keys(info).includes('account') ? info.account : false;
+    const exchange_info = Object.keys(info).includes('exchange_info') ? info.exchange_info : false;
+    const symbols = Object.keys(info).includes('symbols') ? info.symbols : false;
+    let balances = Object.keys(info).includes('balances') ? info.account : false;    
+    if (balances) {
+        balances = info.balances.filter((balance) => parseFloat(balance.free) !== 0.00);
+    }
+
+    // Get an array of flash message by passing the key to req.consumeFlash()
+    // const messages = await req.consumeFlash('messages');
+    // const errors = await req.consumeFlash('errors');
+    // Notes:
+    // - the flash message is an array. You can use await req.flash('key', 'value') several times 
+    //   and all the value will be stored to the key. 
+    // - Then when you call await req.consumeFlash('key'), it will give you an array which 
+    //    contains all the value you want to flash.
+    // - The Flash message will be set to null after you call await req.consumeFlash('key') 
+    //   from session which means it will be removed from your session.
+
+    let data = {
+        // page_title: 'CoinView',
+        // url: req.url,
+        // menu_data: menuData,
+        // title: 'CoinView',
+        account: account,
+        balances: balances,
+        exchange_info: exchange_info,
+        symbols: symbols,
+        messages: req.flash('messages'),
+        errors: req.flash('errors'),
+        layout: false     // layout not required
+    }
+
+    res.render('coinview/index', data); 
+}); 
+
+
+// BuyCrypto CoinView page
+// Method: 'POST', url = '/coinview/buy/:symbol/:quantity', Access: 'Private'
+const coinviewBuy = asyncHandler(async (req, res, next) => {
+
+    // TODO: validate the inputs
+    const symbol = req.body.symbol;
+    const quantity = req.body.quantity;
+
+    const jsonInfo = await buyCrypto(symbol, quantity);
+    const info = JSON.parse(jsonInfo);
+
+    // send a redirect with a flash message
+    if (info.status && info.status === "success") {
+        req.flash('messages', 'Successfully bought crypto');
+    }
+    else {
+        req.flash('errors', 'Unable to buy crypto');
+    }
+
+    return res.redirect('/coinview');
+}); 
+
+
+// SellCrypto CoinView page
+// Method: 'POST', url = '/coinview/buy/:symbol/:quantity', Access: 'Private'
+const coinviewSell = asyncHandler(async (req, res, next) => {
+    // TODO: validate the inputs
+    const symbol = req.body.symbol;
+    const quantity = req.body.quantity;
+
+    const jsonInfo = await sellCrypto(symbol, quantity);
+    const info = JSON.parse(jsonInfo);
+
+    // send a redirect with a flash message
+    if (info.status && info.status === "success") {
+        req.flash('messages', 'Successfully sold crypto');
+    }
+    else {
+        req.flash('errors', 'Unable to sell crypto');
+    }
+
+    return res.redirect('/coinview');
+}); 
+
+
+// View CoinView demo page
+// Method: 'GET', url = '/coinview', Access: 'Public'
+const coinviewHistory = asyncHandler(async (req, res, next) => {
+    const jsonData = await getCryptoHistory();
+    const data = JSON.parse(jsonData)
+    res.json(data);
+}); 
+
+// --------- End CoinView --------------------------------------
+
+
 module.exports = { 
     getIndexPage,
     getAboutPage,
@@ -336,4 +546,13 @@ module.exports = {
     webRegisterPage,
     webPostRegisterPage,
     webLogoutUser,
+    // --- demos ---
+    getWeatherPage,
+    getOBVizDemo,
+    getOBDepthDemo,
+    getTradingViewDemo,
+    getCoinViewDemo,
+    coinviewBuy,
+    coinviewSell,
+    coinviewHistory
 };

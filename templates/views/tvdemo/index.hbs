@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Indicators</title>
+    <style>
+        #tvchart {
+            /*position: absolute;*/
+            width: 90vw;
+            height: 90vh;
+            margin: 0 auto;
+        }
+        #ohlc {
+            font-weight: bold;
+        }
+        .green {
+            color: green;
+        }
+        .red {
+            color: red;
+        }
+        #rsi {
+            color: purple;
+            z-index: 10;
+            position: absolute;
+            top: 1.5rem;
+            left: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="ohlc">
+        <p>O<span class="green">12</span> H<span class="green">15</span> L<span class="green">8</span> C<span class="green">13</span></p>
+    </div>
+
+    <div id="rsi">
+        <p>56.2</p>
+    </div>
+
+    <!-- Chart Placeholder -->
+    <div id="tvchart"></div> 
+    
+    <script src="/vendor/lwcharts/tradingview.js"></script>
+    <script src="/js/local/tradingview_demo.js"></script>
+</body>
+</html>
