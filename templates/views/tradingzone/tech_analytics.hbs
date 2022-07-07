@@ -1,0 +1,57 @@
+
+<link rel="stylesheet" href="/css/local/tech_analytics.css">
+
+<!-- Tech-Analytics Content -->
+<div class="container">
+    <!-- Main Content -->
+    <div class="wrapper" style="min-height: 90vh; margin-top: 50px;">
+            
+        <div class="row mb-3">
+            <div class="col-5">
+                <h2>Technical Analytics</h2>
+            </div>
+            <div class="col-2">
+                <select class="form-control" id="selectInterval">
+                    <option>1m</option>
+                    <option>5m</option>
+                    <option>15m</option>
+                    <option>1h</option>
+                    <option>4h</option>
+                    <option>1d</option>
+                    <option>1w</option>
+                    <option>1month</option>
+                </select>
+            </div>
+            <div class="col-3">
+                <select class="form-control" id="selectSymbol">
+                    <option>BTCBUSD</option>
+                    <option>BTCUSDT</option>
+                    <option>ETHBUSD</option>
+                    <option>ETHUSDT</option>
+                    <option>BNBBUSD</option>
+                    <option>XRPUSDT</option>
+                    <option>LTCUSDT</option>
+                    <option>SOLBUSD</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <button type="submit" id="btnSubmitSymbol" class="btn btn-primary btn-block mb-2">SELECT</button>
+            </div>
+        </div>
+        
+        <div class="row p-3">
+            <div class="col-md-12 px-1">
+                <div class="card p-4">
+                    <div class="card-body">
+                        <!-- Chart Placeholder -->
+                        <div id="ta_chart"></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="/vendor/lwcharts/tradingview.js"></script>
+<script src="/js/local/tech_analytics.js"></script>

@@ -242,7 +242,17 @@ router
         .get(auth, getSysTask)   
         .put(auth, updateSysTask)
         .delete(auth, deleteSysTask);
+  
         
+/*
+ * TechAnalytics Routes
+ */
+
+const { 
+    getTechAnalyticsData,
+} = require('../controllers/techanalyticsApiController');
+        
+router.route('/tech_analytics/:symbol/:interval').get(getTechAnalyticsData);
 
 // Exports
 module.exports = router;

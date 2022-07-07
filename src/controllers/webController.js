@@ -536,6 +536,14 @@ const getTradeSentinel = asyncHandler(async (req, res, next) => {
 }); 
 
 
+// View tech-analytics page
+// Method: 'GET', url = '/tech_analytics', Access: 'Public'
+const getTechAnalyticsPage = asyncHandler(async (req, res, next) => {
+
+    res.render('tradingzone/tech_analytics'); 
+}); 
+
+
 module.exports = { 
     getIndexPage,
     getAboutPage,
@@ -563,5 +571,6 @@ module.exports = {
     coinviewBuy,
     coinviewSell,
     coinviewHistory,
-    getTradeSentinel
+    getTradeSentinel,
+    getTechAnalyticsPage
 };
