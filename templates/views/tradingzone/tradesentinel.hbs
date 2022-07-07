@@ -1,0 +1,114 @@
+<link rel="stylesheet" href="/css/local/tradesentinel.css">
+
+<!-- TradeSentinel Demo Content -->
+<div class="container">
+    <!-- Main Content -->
+    <div class="wrapper" style="min-height: 90vh; margin-top: 80px;">
+        
+        <div class="row d-flex align-items-center">
+            <h3>Trade Sentinel</h3>
+            <div id="display-count" class="ml-3"></div>
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-sm-12 my-3">
+                <h2>BTCBUSD</h2>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="ticker ticker-bg-1">
+                    <h5 id="ticker-curavgprice-label">Current Avg Price (5m)</h5>
+                    <h3 id="ticker-curavgprice">loading...</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="ticker ticker-bg-2">
+                    <h5 id="ticker-currenttickerprice-label">Current Ticker Price</h5>
+                    <h3 id="ticker-currenttickerprice">loading...</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="ticker ticker-bg-3">
+                    <h5 id="ticker-bestbidprice-label">Best Bid Price</h5>
+                    <h3 id="ticker-bestbidprice">loading...</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="ticker ticker-bg-4">
+                    <h5 id="ticker-bestaskprice-label">Best Ask Price</h5>
+                    <h3 id="ticker-bestaskprice">loading...</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3 d-none">
+                <div class="ticker ticker-bg-5">
+                    <h5 id="ticker-current-price-label-5">Current Price</h5>
+                    <h3 id="ticker-current-price-5">loading...</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3 d-none">
+                <div class="ticker ticker-bg-6">
+                    <h5 id="ticker-current-price-label-6">Current Price</h5>
+                    <h3 id="ticker-current-price-6">loading...</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3 d-none">
+                <div class="ticker ticker-bg-7">
+                    <h5 id="ticker-current-price-label-7">Current Price</h5>
+                    <h3 id="ticker-current-price-7">loading...</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3 d-none">
+                <div class="ticker ticker-bg-8">
+                    <h5 id="ticker-current-price-label-8">Current Price</h5>
+                    <h3 id="ticker-current-price-8">loading...</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row mt-3">
+            <div class="col-md-12 mb-4 text-center">
+                <h3>OrderBook accQueue and accTrades</h3>
+            </div>
+
+            <div class="col-md-6">
+                
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <input type="text" class="w-100 text-center" id="symbol" placeholder="Symbol" value="BTCBUSD">
+                    </div>
+                    <div class="col-md-12" id="chartContainer"></div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <input type="text" class="w-100 text-center" id="symbol2" placeholder="Symbol" value="BTCBUSD">
+                    </div>
+                    <div class="col-md-12" id="chartContainer2"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+<script src="/js/local/tradesentinel.js"></script>
+

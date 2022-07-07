@@ -154,6 +154,96 @@ const {
 router.route('/tvdemo/:symbol/:interval').get(getTradingViewDemoData);
 
 
+/*
+ * Messaging Routes
+ */
+const { 
+    sendEmail
+} = require('../controllers/messagingApiController.js');
+
+router
+    .route('/messages/sendmail')
+        .post(auth, adminRole, sendEmail);
+
+
+/*
+ * Trading Routes
+ */
+const { 
+    createTrigger, listTriggers, getTrigger, updateTrigger, deleteTrigger,
+    createPosition, listPositions, getPosition, updatePosition, deletePosition,
+    createTrade, listTrades, getTrade, deleteTrade,
+    createWatchItem, listWatchItems, getWatchItem, updateWatchItem, deleteWatchItem,
+    createMarket, listMarkets, getMarket, updateMarket, deleteMarket,
+    createSysTask, listSysTasks, getSysTask, updateSysTask, deleteSysTask,
+} = require('../controllers/tradingApiController.js');
+
+// Triggers
+router
+    .route('/trading/triggers')
+        .get(auth, listTriggers) 
+        .post(auth, createTrigger);
+router
+    .route('/trading/triggers/:id')
+        .put(auth, updateTrigger)
+        .get(auth, getTrigger) 
+        .delete(auth, deleteTrigger);
+
+// Positions
+router
+    .route('/trading/positions')
+        .get(auth, listPositions) 
+        .post(auth, createPosition);
+router
+    .route('/trading/positions/:id')
+        .put(auth, updatePosition)
+        .get(auth, getPosition) 
+        .delete(auth, deletePosition);
+
+// Trades
+router
+    .route('/trading/trades')
+        .get(auth, listTrades) 
+        .post(auth, createTrade);
+router
+    .route('/trading/trades/:id')
+        .get(auth, getTrade)   
+        .delete(auth, deleteTrade);
+
+// WatchItems
+router
+    .route('/trading/watchitems')
+        .get(auth, listWatchItems) 
+        .post(auth, createWatchItem);
+router
+    .route('/trading/watchitems/:id')
+        .get(auth, getWatchItem)   
+        .put(auth, updateWatchItem)
+        .delete(auth, deleteWatchItem);
+
+// Markets
+router
+    .route('/trading/markets')
+        .get(auth, listMarkets) 
+        .post(auth, createMarket);
+router
+    .route('/trading/markets/:id')
+        .get(auth, getMarket)   
+        .put(auth, updateMarket)
+        .delete(auth, deleteMarket);
+
+// SysTasks
+router
+    .route('/trading/systasks')
+        .get(auth, listSysTasks) 
+        .post(auth, createSysTask);
+router
+    .route('/trading/systasks/:id')
+        .get(auth, getSysTask)   
+        .put(auth, updateSysTask)
+        .delete(auth, deleteSysTask);
+        
+
 // Exports
 module.exports = router;
 

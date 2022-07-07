@@ -1,0 +1,41 @@
+
+.ticker {
+    padding: 10px;
+    text-align: center;
+}
+
+/*.ticker h3 {
+    font-size: 18px;
+}*/
+
+.ticker-bg-1 {
+    background: rgb(240, 231, 231);
+}
+
+.ticker-bg-2 {
+    background: rgb(231, 245, 228);
+}
+
+.ticker-bg-3 {
+    background: rgb(218, 214, 247);
+}
+
+.ticker-bg-4 {
+    background: rgb(247, 250, 224);
+}
+
+.ticker-bg-5 {
+    background: rgb(240, 221, 233);
+}
+
+.ticker-bg-6 {
+    background: rgb(201, 186, 156);
+}
+
+.ticker-bg-7 {
+    background: rgb(245, 202, 226);
+}
+
+.ticker-bg-8 {
+    background: rgb(230, 227, 227);
+}

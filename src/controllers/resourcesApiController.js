@@ -13,7 +13,7 @@ let { cheeses } = require('../data/textDb');
 // ===========================================================================
 const addCheese = asyncHandler(async (req, res) => {
     let cheese = {
-        _id: cheeses?.length ? cheeses[cheeses.length - 1]._id + 1 : 1,
+        _id: cheeses.length ? cheeses[cheeses.length - 1]._id + 1 : 1,
         name: req.body.name,
     };
     cheeses.push(cheese);

@@ -20,6 +20,8 @@ const MongoStore = require('connect-mongo');    // MongoDB session store for Con
 const passport = require('passport'); 
 const socketio = require('socket.io');
 
+const worker = require('./worker');
+
 const connectMongoDb           = require('./db/mongoose');
 const registerHbsHelpers       = require('./utils/hbs_helpers');
 const corsOptions              = require('../config/corsOptions');
@@ -28,7 +30,7 @@ const { credentials }          = require('./middleware/auth');
  
 const { ignoreFavicon, notFound, errorHandler, } = require('./middleware/utils');
 
-const binancews       = require('./proxyApi/binance/binancews');
+const binancews       = require('./services/binance/binancews');
 
 const webRoutes       = require('./routes/webRoutes');
 const apiRoutes       = require('./routes/apiRoutes');
@@ -45,6 +47,9 @@ const server = http.createServer(app);
 const io = socketio(server);
 const port = process.env.PORT || 3000;
 
+// Start the workers
+worker.init();
+
 //////////////////////////////////////////////////////////////////////////////
 
 // Web socket connections and listeners
@@ -58,9 +63,14 @@ io.on('connection', (socket) => {
     });
 });
   
-// Event Emitter
+// Event Emitters
 binancews.EE.on('OBUPDATES', (payload) => {
     io.emit('OBUPDATES', payload);
+});
+
+worker.sentinel.ee.on('SENTINEL_EVENT', (payload) => {
+    // console.log('received sentinel event');
+    io.emit('SENTINEL_EVENT', payload);
 });
 
 //////////////////////////////////////////////////////////////////////////////

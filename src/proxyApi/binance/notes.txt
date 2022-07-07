@@ -1,0 +1,99 @@
+// orderBook
+// url: `https://api.binance.com/api/v3/depth?symbol=${symbol}&limit=5`
+// output:
+/*
+{
+    "lastUpdateId": 1027024,
+    "bids": [
+        [
+        "4.00000000",     // PRICE
+        "431.00000000"    // QTY
+        ]
+    ],
+    "asks": [
+        [
+        "4.00000200",
+        "12.00000000"
+        ]
+    ]
+}
+*/
+
+// recent trades list
+// url: `https://api.binance.com/api/v3/trades?symbol=${symbol}&limit=5`
+// output:
+/*
+[
+    {
+        "id": 28457,
+        "price": "4.00000100",
+        "qty": "12.00000000",
+        "quoteQty": "48.000012",
+        "time": 1499865549590,
+        "isBuyerMaker": true,
+        "isBestMatch": true
+    }
+]
+*/
+
+
+// Compressed/Aggregate trades list
+// url: `https://api.binance.com/api/v3/aggTrades?symbol=${symbol}&limit=500`
+// output:
+/*
+// If both startTime and endTime are sent, time between startTime and endTime must be less than 1 hour.
+// If fromId, startTime, and endTime are not sent, the most recent aggregate trades will be returned.
+[
+    {
+        "a": 26129,         // Aggregate tradeId
+        "p": "0.01633102",  // Price
+        "q": "4.70443515",  // Quantity
+        "f": 27781,         // First tradeId
+        "l": 27781,         // Last tradeId
+        "T": 1498793709153, // Timestamp
+        "m": true,          // Was the buyer the maker?
+        "M": true           // Was the trade the best price match?
+    }
+]
+*/
+
+
+// Symbol(s) Price Ticker - Latest price for a symbol or symbols
+// url: `https://api.binance.com/api/v3/ticker/price?symbol=${symbol}`
+/*
+{
+    "symbol": "LTCBTC",
+    "price": "4.00000200"
+}
+// OR
+[
+    {
+        "symbol": "LTCBTC",
+        "price": "4.00000200"
+    },
+    {
+        "symbol": "ETHBTC",
+        "price": "0.07946600"
+    }
+]
+*/
+
+// Symbol order book ticker - Best price/qty on the order book for a symbol or symbols.
+/*
+{
+    "symbol": "LTCBTC",
+    "price": "4.00000200"
+}
+// OR
+[
+    {
+        "symbol": "LTCBTC",
+        "price": "4.00000200"
+    },
+    {
+        "symbol": "ETHBTC",
+        "price": "0.07946600"
+    }
+]
+*/
+

@@ -48,10 +48,10 @@ const getIndexPage = asyncHandler(async (req, res, next) => {
         return {
             name: neu.name,
             url: neu.url,
-            newsImage: neu?.image?.thumbnail?.contentUrl,
+            newsImage: neu.image.thumbnail.contentUrl,
             description: neu.description,
-            providerName: neu.provider[0]?.name,
-            providerImage: neu.provider[0]?.image?.thumbnail?.contentUrl,
+            providerName: neu.provider[0].name,
+            providerImage: neu.provider[0].image ? neu.provider[0].image.thumbnail.contentUrl : '',  // revisit safety here
             datePublished: moment(neu.datePublished).fromNow()
         }
     });    
@@ -528,6 +528,14 @@ const coinviewHistory = asyncHandler(async (req, res, next) => {
 // --------- End CoinView --------------------------------------
 
 
+// View TradeSentinel page
+// Method: 'GET', url = '/tradesentinel', Access: 'Public'
+const getTradeSentinel = asyncHandler(async (req, res, next) => {
+
+    res.render('tradingzone/tradesentinel'); 
+}); 
+
+
 module.exports = { 
     getIndexPage,
     getAboutPage,
@@ -554,5 +562,6 @@ module.exports = {
     getCoinViewDemo,
     coinviewBuy,
     coinviewSell,
-    coinviewHistory
+    coinviewHistory,
+    getTradeSentinel
 };

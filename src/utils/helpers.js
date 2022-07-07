@@ -19,6 +19,11 @@ helpers.getANumber = function() {
     return 1;
 };
 
+// Timeout/sleep/delay functionality
+helpers.timeout = (ms) => {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 // Create a SHA256 hash
 helpers.hash = function(str) {
     if (typeof(str) == 'string' && str.length > 0) {
@@ -29,6 +34,34 @@ helpers.hash = function(str) {
         return false;
     }
 };
+
+
+const paramsToQueryString = helpers.paramsToQueryString = (obj) => {
+    let paramArr = [];
+
+    for (let p in obj) {
+        if (obj.hasOwnProperty(p)) {
+            paramArr.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
+        }
+    }
+
+    return paramArr.join("&");  
+}
+
+// Generate HMAC signature
+helpers.generateHmacSignature = function(secret, params) {
+    const query_str = paramsToQueryString(params); 
+
+    const hmac = crypto.createHmac('sha256', secret);
+    let hmac_signature = hmac.update(query_str);         // passing the data to be hashed
+    hmac_signature = hmac_signature.digest('hex');       // Creating the hmac in the required format
+
+    return hmac_signature;
+};
+
+//     // generate hmac signature
+//     params['signature'] = generateHmacSignature(binance_secret, params);
+//     // console.log('params: ', params);
 
 // Encrypt a string (generate a 16 digit initialization vector with crypto: 'crypto.randomBytes(16);')
 helpers.encryptString = function({ data, iv }) {
@@ -222,6 +255,24 @@ helpers.formatCount = function(count, withAbbr = false, decimals = 2) {
 
 helpers.numberWithCommas = function(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+helpers.writeDataToFileAsJson = function(jsonData, outputFile) {
+    // file system module to perform file operations
+    const fs = require('fs');
+
+    // stringify JSON Object
+    var jsonContent = JSON.stringify(jsonData, getCircularReplacer());
+    //console.log(jsonContent);
+
+    fs.writeFile(outputFile, jsonContent, 'utf8', function (err) {
+        if (err) {
+            console.log("An error occured while writing JSON Object to File.");
+            return console.log(err);
+        }
+
+        console.log("JSON file has been saved.");
+    });
 }
 
 

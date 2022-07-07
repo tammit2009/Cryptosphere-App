@@ -279,7 +279,7 @@ const logoutUser = asyncHandler(async (req, res) => {
     // Note: On client, also delete the access token
 
     const cookies = req.cookies;
-    if (!cookies?.jwt) return res.sendStatus(204); // No content 
+    if (!cookies.jwt) return res.sendStatus(204); // No content 
 
     const refreshToken = cookies.jwt;
 
@@ -310,7 +310,7 @@ const logoutUser = asyncHandler(async (req, res) => {
 const tokenRefresh = asyncHandler(async (req, res) => {
     
     const cookies = req.cookies;
-    if (!cookies?.jwt) return res.sendStatus(401);
+    if (!cookies.jwt) return res.sendStatus(401);
 
     // Extract the refresh token from httpOnly cookie
     const refreshToken = cookies.jwt;

@@ -36,7 +36,8 @@ const {
     getCoinViewDemo,
     coinviewBuy,
     coinviewSell,
-    coinviewHistory
+    coinviewHistory,
+    getTradeSentinel
 } = require('../controllers/webController.js');
 
 // routes
@@ -61,6 +62,7 @@ router.get('/coinview',         getCoinViewDemo);
 router.post('/coinview/buy',    coinviewBuy);
 router.post('/coinview/sell',   coinviewSell);
 router.get('/coinview/history', coinviewHistory);
+router.get('/tradesentinel',    getTradeSentinel);  
 
 router
     .route('/login')
