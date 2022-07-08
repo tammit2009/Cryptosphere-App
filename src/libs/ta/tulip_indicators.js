@@ -128,11 +128,76 @@ const markers_inc = (data) => {
     return data;
 }
 
+const sma_vol_inc = async (data) => {
+
+    // only need the volume values
+    const d1 = data.map((d) => d.volume);
+    const results = await sma_async([d1], [21]); // volume, period=21
+
+    // determine NaN entries
+    const d2 = results[0];
+    const diff = data.length - d2.length; 
+
+    // create original sized array, setting the first NaN entries
+    const emptyArray = [...new Array(diff)].map((d) => '');
+    // then the result entries
+    const d3 = [...emptyArray, ...d2];
+
+    // add this to the original array as the sma key
+    data = data.map((d, i) => ({ ...d, sma_vol: d3[i] }));
+
+    // console.log(data);
+
+    return data;
+};
+
+// price change per unit volume
+const pchgpuv_inc = async (data) => {
+
+    let dprevious = 0.0;
+    const d1 = data.map((d, i) => {
+        if (i > 0) {
+            const pchgpuv = ((d.close - dprevious)/(d.volume + 1)) * 100; // to avoid div-by-zero error
+            dprevious = d.close;
+            return pchgpuv;  
+        }
+        else {
+            dprevious = d.close;
+            return 0.0;
+        }
+    });
+
+    // add this to the original array as the sma key
+    data = data.map((d, i) => ({ ...d, pchgpuv: d1[i] }));
+
+    // only need the volume values
+    const d2 = data.map((d) => d.pchgpuv);
+    const results = await sma_async([d2], [5]); // volume, period=5
+
+    // determine NaN entries
+    const d3 = results[0];
+    const diff = data.length - d3.length; 
+
+    // create original sized array, setting the first NaN entries
+    const emptyArray = [...new Array(diff)].map((d) => '');
+    // then the result entries
+    const d4 = [...emptyArray, ...d3];
+
+    // add this to the original array as the sma key
+    data = data.map((d, i) => ({ ...d, sma_pchgpuv: d4[i] }));
+
+    // console.log(data);
+
+    return data;
+};
+
 
 module.exports = {
     sma_inc,
     ema_inc,
     rsi_inc,
     macd_inc,
-    markers_inc
+    markers_inc,
+    sma_vol_inc,
+    pchgpuv_inc
 }

@@ -18,7 +18,9 @@ const getTechAnalyticsData = asyncHandler(async (req, res) => {
         ema_inc, 
         rsi_inc, 
         macd_inc,
-        markers_inc 
+        markers_inc,
+        sma_vol_inc,
+        pchgpuv_inc
     } = require('../libs/ta/tulip_indicators');
 
     try {
@@ -39,6 +41,7 @@ const getTechAnalyticsData = asyncHandler(async (req, res) => {
             high: d[2] * 1,
             low: d[3] * 1,
             close: d[4] * 1,
+            volume: d[5] * 1,
         }));
 
         // sma
@@ -55,6 +58,12 @@ const getTechAnalyticsData = asyncHandler(async (req, res) => {
 
         // markers
         // klinedata = markers_inc(klinedata);
+
+        // sma volume
+        klinedata = await sma_vol_inc(klinedata);
+
+        // pchgpuv
+        klinedata = await pchgpuv_inc(klinedata);
 
         res.status(200).json(klinedata);
     }
