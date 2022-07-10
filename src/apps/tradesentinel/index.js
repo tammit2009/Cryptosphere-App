@@ -1,9 +1,11 @@
 
 const events = require('events');
 
+const Broker = require('../../services/broker');
+
 const { sendDirectEmail } = require('../../services/email');
 const { tickerUpdateUI }  = require('./update_ticker');
-const { runBot }  = require('./monitor_bot');
+const { runBot }          = require('./monitor_bot');
 
 let bHourHit  = false;
 let bMinuteHit  = false;
@@ -11,6 +13,8 @@ let bMinuteHit  = false;
 let sentinel = {};
 
 sentinel.ee = new events;
+
+const broker = new Broker();
 
 // Inject Clock
 sentinel.run = async function() {
@@ -82,6 +86,10 @@ async function perTickDispatcher(event_emitter) {
 
     // Update UI with Ticker Info 
     await tickerUpdateUI(event_emitter);
+
+    // Fire Broker run loop every 10s
+    broker.runTransactions();
+
 }
 
 

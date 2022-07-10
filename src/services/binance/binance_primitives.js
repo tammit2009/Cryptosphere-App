@@ -676,11 +676,8 @@ primitives.createOrder = async function(orderData) {
         type: orderData.type
     }
 
-    // console.log(orderData);
-
     switch(orderData.type) {
         case 'MARKET':
-            console.log('market')
             // the amount of the base asset the user wants to buy or sell
             if (orderData.size) {
                 params['quantity'] = orderData.size;  
@@ -741,30 +738,117 @@ primitives.createOrder = async function(orderData) {
     // generate hmac signature
     params['signature'] = generateHmacSignature(binance_secret, params);
 
-    let endpoint = `${binanceBaseUrl}/api/v3/order`;
-    // console.log(`${binanceBaseUrl}${endpoint}`);
+    // console.log('params:', params);
 
-    try {
-        const result = await axios.post(`${binanceBaseUrl}${endpoint}`, {
-            headers: { "X-MBX-APIKEY": binance_apikey }, 
-            params
-        });
+    // let endpoint = `/api/v3/order`;
 
-        // Expected Response
-        /*
-        // Response ACK
-        {
-            "symbol": "BTCUSDT",
-            "orderId": 28,
-            "orderListId": -1, //Unless OCO, value will be -1
-            "clientOrderId": "6gCrw2kRUAF9CvJDGP16IP",
-            "transactTime": 1507725176595
-        }
+    // try {
+    //     // object to 'form-urlencoded' i.e. 'recvWindow=5000&timestamp=1657449660591&symbol=BTCBUSD&...'
+    //     // previously used 'querystring.stringify(params)' but it is deprecated, so using URLSearchParms now
+    //     const data = new URLSearchParams(params).toString();  
 
-        // Response RESULT
-        {
-            "symbol": "BTCUSDT",
-            "orderId": 28,
+    //     // send to binance order endpoint
+    //     const result = await axios.post(`${binanceBaseUrl}${endpoint}`, data, {
+    //         headers: { 
+    //             "Content-Type": "application/x-www-form-urlencoded",
+    //             "X-MBX-APIKEY": binance_apikey 
+    //         }
+    //     });
+
+    //     // Expected Response
+    //     /*
+    //     // Response ACK
+    //     {
+    //         "symbol": "BTCUSDT",
+    //         "orderId": 28,
+    //         "orderListId": -1, //Unless OCO, value will be -1
+    //         "clientOrderId": "6gCrw2kRUAF9CvJDGP16IP",
+    //         "transactTime": 1507725176595
+    //     }
+
+    //     // Response RESULT
+    //     {
+    //         "symbol": "BTCUSDT",
+    //         "orderId": 28,
+    //         "orderListId": -1, //Unless OCO, value will be -1
+    //         "clientOrderId": "6gCrw2kRUAF9CvJDGP16IP",
+    //         "transactTime": 1507725176595,
+    //         "price": "0.00000000",
+    //         "origQty": "10.00000000",
+    //         "executedQty": "10.00000000",
+    //         "cummulativeQuoteQty": "10.00000000",
+    //         "status": "FILLED",
+    //         "timeInForce": "GTC",
+    //         "type": "MARKET",
+    //         "side": "SELL"
+    //     }
+
+    //     // Response FULL:
+    //     {
+    //         "symbol": "BTCUSDT",
+    //         "orderId": 28,
+    //         "orderListId": -1, //Unless OCO, value will be -1
+    //         "clientOrderId": "6gCrw2kRUAF9CvJDGP16IP",
+    //         "transactTime": 1507725176595,
+    //         "price": "0.00000000",
+    //         "origQty": "10.00000000",
+    //         "executedQty": "10.00000000",
+    //         "cummulativeQuoteQty": "10.00000000",
+    //         "status": "FILLED",
+    //         "timeInForce": "GTC",
+    //         "type": "MARKET",
+    //         "side": "SELL",
+    //         "fills": [
+    //             {
+    //                 "price": "4000.00000000",
+    //                 "qty": "1.00000000",
+    //                 "commission": "4.00000000",
+    //                 "commissionAsset": "USDT",
+    //                 "tradeId": 56
+    //             },
+    //             {
+    //                 "price": "3999.00000000",
+    //                 "qty": "5.00000000",
+    //                 "commission": "19.99500000",
+    //                 "commissionAsset": "USDT",
+    //                 "tradeId": 57
+    //             },
+    //             {
+    //                 "price": "3998.00000000",
+    //                 "qty": "2.00000000",
+    //                 "commission": "7.99600000",
+    //                 "commissionAsset": "USDT",
+    //                 "tradeId": 58
+    //             },
+    //             {
+    //                 "price": "3997.00000000",
+    //                 "qty": "1.00000000",
+    //                 "commission": "3.99700000",
+    //                 "commissionAsset": "USDT",
+    //                 "tradeId": 59
+    //             },
+    //             {
+    //                 "price": "3995.00000000",
+    //                 "qty": "1.00000000",
+    //                 "commission": "3.99500000",
+    //                 "commissionAsset": "USDT",
+    //                 "tradeId": 60
+    //             }
+    //         ]
+    //     }
+    //     */
+
+    //     return result.data;
+    // }
+    // catch (err) {
+    //     console.log(err);
+    //     return { errorCode: -1001, data: err.message };
+    // }   
+
+    return {
+        data:         {
+            "symbol": "TEST_ETHBUSD",
+            "orderId": 31,
             "orderListId": -1, //Unless OCO, value will be -1
             "clientOrderId": "6gCrw2kRUAF9CvJDGP16IP",
             "transactTime": 1507725176595,
@@ -772,72 +856,12 @@ primitives.createOrder = async function(orderData) {
             "origQty": "10.00000000",
             "executedQty": "10.00000000",
             "cummulativeQuoteQty": "10.00000000",
-            "status": "FILLED",
+            "status": "NEW",
             "timeInForce": "GTC",
             "type": "MARKET",
             "side": "SELL"
         }
-
-        // Response FULL:
-        {
-            "symbol": "BTCUSDT",
-            "orderId": 28,
-            "orderListId": -1, //Unless OCO, value will be -1
-            "clientOrderId": "6gCrw2kRUAF9CvJDGP16IP",
-            "transactTime": 1507725176595,
-            "price": "0.00000000",
-            "origQty": "10.00000000",
-            "executedQty": "10.00000000",
-            "cummulativeQuoteQty": "10.00000000",
-            "status": "FILLED",
-            "timeInForce": "GTC",
-            "type": "MARKET",
-            "side": "SELL",
-            "fills": [
-                {
-                    "price": "4000.00000000",
-                    "qty": "1.00000000",
-                    "commission": "4.00000000",
-                    "commissionAsset": "USDT",
-                    "tradeId": 56
-                },
-                {
-                    "price": "3999.00000000",
-                    "qty": "5.00000000",
-                    "commission": "19.99500000",
-                    "commissionAsset": "USDT",
-                    "tradeId": 57
-                },
-                {
-                    "price": "3998.00000000",
-                    "qty": "2.00000000",
-                    "commission": "7.99600000",
-                    "commissionAsset": "USDT",
-                    "tradeId": 58
-                },
-                {
-                    "price": "3997.00000000",
-                    "qty": "1.00000000",
-                    "commission": "3.99700000",
-                    "commissionAsset": "USDT",
-                    "tradeId": 59
-                },
-                {
-                    "price": "3995.00000000",
-                    "qty": "1.00000000",
-                    "commission": "3.99500000",
-                    "commissionAsset": "USDT",
-                    "tradeId": 60
-                }
-            ]
-        }
-
-        */
-        return result.data;
     }
-    catch (err) {
-        return { errorCode: -1001, data: err.message };
-    }   
 };
 
 
@@ -953,7 +977,7 @@ primitives.getAllOrders = async function(orderData) {
     //     }
     // }
 
-    console.log('params:', params)
+    // console.log('params:', params)
 
     // generate hmac signature
     params['signature'] = generateHmacSignature(binance_secret, params);
@@ -996,8 +1020,6 @@ primitives.getAllOrders = async function(orderData) {
     catch (err) {
         return { errorCode: -1001, data: err };
     }   
-
-    return "ok";
 };
 
 
@@ -1008,9 +1030,11 @@ primitives.getOpenOrders = async function(orderData) {
 
     let params = {
         recvWindow: orderData.recvWindow,
-        timestamp: new Date().getTime(),
-        symbol: orderData.symbol,
+        timestamp: new Date().getTime()
     }
+
+    if (orderData.symbol)   // if symbol is included
+        params['symbol'] = orderData.symbol;
 
     // generate hmac signature
     params['signature'] = generateHmacSignature(binance_secret, params);
@@ -1061,18 +1085,22 @@ primitives.getOpenOrders = async function(orderData) {
 // params: symbol, orderId, origClientOrderId, recvWindow, timestamp
 primitives.getOrderStatus = async function(orderData) {
 
+    // status: "NEW", "PARTIALLY_FILLED", "FILLED", "CANCELED", "REJECTED", "EXPIRED"
+
     let params = {
         recvWindow: orderData.recvWindow,
         timestamp: new Date().getTime(),
         symbol: orderData.symbol,
     }
 
-    if (orderId) {
-        params['orderId'] = orderData.orderId;
+    if (orderData.orderId) {
+        params.orderId = orderData.orderId;
     }
-    else if (origClientOrderId) {
+    else if (orderData.origClientOrderId) {
         params['origClientOrderId'] = orderData.origClientOrderId;
     }
+
+    // console.log('params:', params);
 
     // generate hmac signature
     params['signature'] = generateHmacSignature(binance_secret, params);
@@ -1126,15 +1154,17 @@ primitives.cancelOrder = async function(orderData) {
         symbol: orderData.symbol,
     }
 
-    if (orderId) {
+    if (orderData.orderId) {
         params['orderId'] = orderData.orderId;
     }
-    else if (origClientOrderId) {
+    else if (orderData.origClientOrderId) {
         params['origClientOrderId'] = orderData.origClientOrderId;
     }
 
     // generate hmac signature
     params['signature'] = generateHmacSignature(binance_secret, params);
+
+    // console.log('params:', params);
 
     let endpoint = `/api/v3/order`;
 
@@ -1162,9 +1192,11 @@ primitives.cancelOrder = async function(orderData) {
             "side": "BUY"
         }
         */
+
         return result.data;
     }
     catch (err) {
+        console.log(err);
         return { errorCode: -1001, data: err.message };
     }   
 };

@@ -6,10 +6,9 @@
 const express   = require('express');
 const router    = express.Router();
 
-const { 
-    auth, verifyRoles, adminRole 
-        }        = require('../../middleware/auth.js');
-const ROLES      = require('../../../config/rolesList');
+const { auth, verifyRoles, adminRole } = require('../../middleware/auth.js');
+const ROLES                            = require('../../../config/rolesList');
+
 const primitives = require('../../services/binance/binance_primitives');
 
 // routes
@@ -76,7 +75,7 @@ router.get('/oper/exchangeInfo', async (req, res) => {
 
 // Get OrderBook Depth
 // Method: 'GET', url = '/proxy/binance/oper/obdepth?symbol={symbol}&limit={limit}', Access: 'Public'
-router.get('/oper/obdepth', auth, async (req, res) => {
+router.get('/oper/obdepth', async (req, res) => {
     let symbol = req.query.symbol;
     if (!symbol)
         symbol = 'BTCUSDT';
@@ -266,7 +265,7 @@ router.get('/oper/rollingWindowPriceChange', async (req, res) => {
 // Get Account Information
 // Method: 'GET', url = '/proxy/binance/oper/account', Access: 'Private: apiKey/Signed'
 // params: recvWindow, timestamp
-router.get('/oper/account', async (req, res) => {
+router.get('/oper/account', auth, async (req, res) => {
     
     let recvWindow = typeof(req.body.recvWindow) == 'number' 
         && req.body.recvWindow > 0 ? req.body.recvWindow : 5000;
@@ -289,7 +288,7 @@ router.get('/oper/account', async (req, res) => {
 
 // Create Order
 // Method: 'POST', url = '/proxy/binance/oper/order', Access: 'Private: apiKey/Signed'
-router.post('/oper/order', async (req, res) => {
+router.post('/oper/order', auth, async (req, res) => {
     
     let recvWindow = typeof(req.body.recvWindow) == 'number' 
         && req.body.recvWindow > 0 ? req.body.recvWindow : 5000;
@@ -325,7 +324,7 @@ router.post('/oper/order', async (req, res) => {
 
 // Create Test Order
 // Method: 'POST', url = '/proxy/binance/oper/order/test', Access: 'Private: apiKey/Signed'
-router.post('/oper/order/test', async (req, res) => {
+router.post('/oper/order/test', auth, async (req, res) => {
     
     let recvWindow = typeof(req.body.recvWindow) == 'number' 
         && req.body.recvWindow > 0 ? req.body.recvWindow : 5000;
@@ -361,7 +360,7 @@ router.post('/oper/order/test', async (req, res) => {
 
 // Get ALL Orders
 // Method: 'GET', url = '/proxy/binance/oper/allOrders', Access: 'Private: apiKey/Signed'
-router.get('/oper/allOrders', async (req, res) => {
+router.get('/oper/allOrders', auth, async (req, res) => {
 
     console.log(req.query);
     
@@ -405,7 +404,7 @@ router.get('/oper/allOrders', async (req, res) => {
 
 // Get ALL (my) Trades
 // Method: 'GET', url = '/proxy/binance/oper/myTrades', Access: 'Private: apiKey/Signed'
-router.get('/oper/myTrades', async (req, res) => {
+router.get('/oper/myTrades', auth, async (req, res) => {
     
     let recvWindow = typeof(req.query.recvWindow) == 'number' 
         && req.query.recvWindow > 0 ? req.query.recvWindow : 5000;
@@ -447,7 +446,7 @@ router.get('/oper/myTrades', async (req, res) => {
 
 // Get Current Open Orders
 // Method: 'GET', url = '/proxy/binance/oper/openOrders', Access: 'Private: apiKey/Signed'
-router.get('/oper/openOrders', async (req, res) => {
+router.get('/oper/openOrders', auth, async (req, res) => {
     
     let recvWindow = typeof(req.query.recvWindow) == 'number' 
         && req.query.recvWindow > 0 ? req.query.recvWindow : 5000;
@@ -473,7 +472,7 @@ router.get('/oper/openOrders', async (req, res) => {
 
 // Query Order
 // Method: 'GET', url = '/proxy/binance/oper/order', Access: 'Private: apiKey/Signed'
-router.get('/oper/order', async (req, res) => {
+router.get('/oper/order', auth, async (req, res) => {
     
     let recvWindow = typeof(req.query.recvWindow) == 'number' 
         && req.query.recvWindow > 0 ? req.query.recvWindow : 5000;
@@ -505,7 +504,7 @@ router.get('/oper/order', async (req, res) => {
 
 // Cancel Order
 // Method: 'DELETE', url = '/proxy/binance/oper/order', Access: 'Private: apiKey/Signed'
-router.delete('/oper/order', async (req, res) => {
+router.delete('/oper/order', auth, async (req, res) => {
     
     let recvWindow = typeof(req.query.recvWindow) == 'number' 
         && req.query.recvWindow > 0 ? req.query.recvWindow : 5000;
@@ -537,7 +536,7 @@ router.delete('/oper/order', async (req, res) => {
 
 // Cancel All Open Orders
 // Method: 'DELETE', url = '/proxy/binance/oper/openOrders', Access: 'Private: apiKey/Signed'
-router.delete('/oper/openOrders', async (req, res) => {
+router.delete('/oper/openOrders', auth, async (req, res) => {
     
     let recvWindow = typeof(req.query.recvWindow) == 'number' 
         && req.query.recvWindow > 0 ? req.query.recvWindow : 5000;
@@ -563,7 +562,7 @@ router.delete('/oper/openOrders', async (req, res) => {
 
 // Cancel and Replace Order
 // Method: 'POST', url = '/proxy/binance/oper/order/cancelReplace', Access: 'Private: apiKey/Signed'
-router.post('/oper/order/cancelReplace', async (req, res) => {
+router.post('/oper/order/cancelReplace', auth, async (req, res) => {
     
     let recvWindow = typeof(req.body.recvWindow) == 'number' 
         && req.body.recvWindow > 0 ? req.body.recvWindow : 5000;
@@ -610,7 +609,7 @@ router.post('/oper/order/cancelReplace', async (req, res) => {
 
 // Start a new User Stream - Get Binance Listen Key
 // Method: 'POST', url = '/proxy/binance/oper/userStream', Access: 'Public'
-router.post('/oper/userStream', async (req, res) => {
+router.post('/oper/userStream', auth, async (req, res) => {
     const listenKey = await primitives.obtainBinanceListenKey();
 
     // Start a websocket user stream
@@ -622,7 +621,7 @@ router.post('/oper/userStream', async (req, res) => {
 
 // Keep Alive User Stream 
 // Method: 'PUT ', url = '/proxy/binance/oper/userStream', Access: 'Public'
-router.put('/oper/userStream', async (req, res) => {
+router.put('/oper/userStream', auth, async (req, res) => {
 
     let listenKey = typeof(req.body.listenKey) == 'string' 
         && req.body.listenKey.trim().length > 0 ? req.body.listenKey.trim() : false;
@@ -640,7 +639,7 @@ router.put('/oper/userStream', async (req, res) => {
 
 // Close user data stream
 // Method: 'DELETE ', url = '/proxy/binance/oper/userStream', Access: 'Public'
-router.delete('/oper/userStream', async (req, res) => {
+router.delete('/oper/userStream', auth, async (req, res) => {
 
     let listenKey = typeof(req.body.listenKey) == 'string' 
         && req.body.listenKey.trim().length > 0 ? req.body.listenKey.trim() : false;

@@ -20,8 +20,6 @@ const MongoStore = require('connect-mongo');    // MongoDB session store for Con
 const passport = require('passport'); 
 const socketio = require('socket.io');
 
-const worker = require('./worker');
-
 const connectMongoDb           = require('./db/mongoose');
 const registerHbsHelpers       = require('./utils/hbs_helpers');
 const corsOptions              = require('../config/corsOptions');
@@ -30,6 +28,7 @@ const { credentials }          = require('./middleware/auth');
  
 const { ignoreFavicon, notFound, errorHandler, } = require('./middleware/utils');
 
+const worker          = require('./worker');
 const binancews       = require('./services/binance/binancews');
 
 const webRoutes       = require('./routes/webRoutes');
