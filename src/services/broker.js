@@ -22,10 +22,10 @@ class Broker {
     async runTransactions() {
         
         // Check for pendingOrders
-        console.log('Checking for pendingOrders...');
-        const pendingOrders = await PendingOrder.find({});
-        if (pendingOrders) 
-            pendingOrders.forEach((porder, i) => console.log(`pendingOrder ${i}:`, porder.orderId, porder.symbol, porder.status, porder.fillCheck));
+        // console.log('Checking for pendingOrders...');
+        // const pendingOrders = await PendingOrder.find({});
+        // if (pendingOrders) 
+        //     pendingOrders.forEach((porder, i) => console.log(`pendingOrder ${i}:`, porder.orderId, porder.symbol, porder.status, porder.fillCheck));
 
     }
 

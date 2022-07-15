@@ -9,6 +9,7 @@ routes.use('/binance',      require('./binance'));
 routes.use('/coinranking',  require('./coinranking'));
 routes.use('/bingnews',     require('./bing'));
 routes.use('/weatherstack', require('./mapbox_weatherstack'));
+routes.use('/mlearnpy',     require('./mlearnpy'));
 
 // Exports
 module.exports = routes;

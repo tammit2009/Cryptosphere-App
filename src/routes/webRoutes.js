@@ -39,6 +39,7 @@ const {
     coinviewHistory,
     getTradeSentinel,
     getTechAnalyticsPage,
+    getBackTesterPage,
 } = require('../controllers/webController.js');
 
 // routes
@@ -65,6 +66,7 @@ router.post('/coinview/sell',   coinviewSell);
 router.get('/coinview/history', coinviewHistory);
 router.get('/tradesentinel',    getTradeSentinel);  
 router.get('/tech_analytics',   getTechAnalyticsPage);  
+router.get('/backtester',       getBackTesterPage);  
 
 router
     .route('/login')

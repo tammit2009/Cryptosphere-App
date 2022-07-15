@@ -544,6 +544,14 @@ const getTechAnalyticsPage = asyncHandler(async (req, res, next) => {
 }); 
 
 
+// View backtester page
+// Method: 'GET', url = '/tech_analytics', Access: 'Public'
+const getBackTesterPage = asyncHandler(async (req, res, next) => {
+
+    res.render('tradingzone/backtester'); 
+}); 
+
+
 module.exports = { 
     getIndexPage,
     getAboutPage,
@@ -572,5 +580,6 @@ module.exports = {
     coinviewSell,
     coinviewHistory,
     getTradeSentinel,
-    getTechAnalyticsPage
+    getTechAnalyticsPage,
+    getBackTesterPage,
 };
