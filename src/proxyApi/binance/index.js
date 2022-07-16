@@ -1,7 +1,5 @@
 /* Binance Routes */
 
-// TODO: Update on Remote.
-
 // Dependencies
 const express   = require('express');
 const router    = express.Router();

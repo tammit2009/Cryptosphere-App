@@ -1,12 +1,12 @@
 
-const BufferQueue            = require('../utils/buffer_queue');
+const BufferQueue = require('../utils/buffer_queue');
 const { createRandomString } = require('../utils/helpers');
 
-const Trade         = require('../models/trade');
-const Position      = require('../models/position');
-const PendingOrder  = require('../models/pendingorder');
+const Trade    = require('../models/trade');
+const Position = require('../models/position');
+const Order    = require('../models/order');
 
-const binance   = require('../services/binance/binance_primitives');
+const binance  = require('./binance/binance_primitives');
 
 class Broker {
 
@@ -21,11 +21,11 @@ class Broker {
 
     async runTransactions() {
         
-        // Check for pendingOrders
-        // console.log('Checking for pendingOrders...');
-        // const pendingOrders = await PendingOrder.find({});
-        // if (pendingOrders) 
-        //     pendingOrders.forEach((porder, i) => console.log(`pendingOrder ${i}:`, porder.orderId, porder.symbol, porder.status, porder.fillCheck));
+        // // Check for pendingOrders
+        // console.log('Checking for pending orders...');
+        // const orders = await Order.find({ status: 'PENDING' });
+        // if (orders) 
+        //     orders.forEach((order, i) => console.log(`pendingOrder ${i}:`, order.orderId, order.symbol, order.status, order.fillCheck));
 
     }
 
@@ -189,8 +189,18 @@ class Broker {
 
         try {
             const order = await binance.createOrder(orderData);
-            if (order)
+            if (order) {
+
+                // Add order to orders as filled with params: { orderId, symbol, status='FILLED', fillCheck=0 }
+                const _order = await Order.create({ 
+                    orderId: order.data.orderId,
+                    symbol: order.data.symbol,
+                    status: 'FILLED',    // order.data.status
+                });
+                await _order.save()
+
                 return order;
+            }    
             else 
                 return false;
         }
@@ -217,14 +227,16 @@ class Broker {
         try {
             const order = await binance.createOrder(orderData);
             if (order) {
-                // Add order to pending orders with params: { orderId, symbol, status, fillCheck=0 }
+
+                // Add order to orders as pending with params: { orderId, symbol, status='PENDING', fillCheck=0 }
                 // - a loop can be made to check for pending orders and organize a check from binance.
-                const pendingOrder = await PendingOrder.create({ 
+                const _order = await Order.create({ 
                     orderId: order.data.orderId,
                     symbol: order.data.symbol,
-                    status: order.data.status
+                    status: 'PENDING',  // order.data.status
                 });
-                await pendingOrder.save()
+                await _order.save()
+
                 return order;
             }
             else return false;

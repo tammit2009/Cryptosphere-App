@@ -858,8 +858,8 @@ primitives.createOrder = async function(orderData) {
             "cummulativeQuoteQty": "10.00000000",
             "status": "NEW",
             "timeInForce": "GTC",
-            "type": "MARKET",
-            "side": "SELL"
+            "type": "LIMIT",
+            "side": "BUY"
         }
     }
 };

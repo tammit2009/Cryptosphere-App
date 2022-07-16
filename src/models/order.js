@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const PendingOrderSchema = new mongoose.Schema({
+const OrderSchema = new mongoose.Schema({
 
     orderId: {
         type: String,
@@ -13,7 +13,7 @@ const PendingOrderSchema = new mongoose.Schema({
         trim: true
     },
     status: {
-        type: String,
+        type: String,    // 'pending', 'filled'
         required: true,
         trim: true
     },
@@ -26,6 +26,6 @@ const PendingOrderSchema = new mongoose.Schema({
     timestamps: true
 });
 
-const PendingOrder = mongoose.model('PendingOrder', PendingOrderSchema);
+const Order = mongoose.model('Order', OrderSchema);
 
-module.exports = PendingOrder;
+module.exports = Order;

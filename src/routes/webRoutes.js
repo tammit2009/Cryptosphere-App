@@ -74,19 +74,26 @@ router
         .post( 
             // use Passport middleware for actual login
             passport.authenticate('local-login', {
-                successRedirect: '/cryptotrading',
+                successRedirect: '/workspace',
                 failureRedirect: '/login',
                 failureFlash: true }));
 router
     .route('/register')
         // .get(webRegisterPage)
         .post(webPostRegisterPage);
-router.get('/profile',             webAuth, webProfilePage); // can also use "passportConf.isAuthenticated" here instead
+router.get('/profile', webAuth, webProfilePage); // can also use "passportConf.isAuthenticated" here instead
 router
     .route('/profile/edit')
         .get(webProfileEditPage)
         .post(webPostProfileEditPage);
 router.get('/logout', webLogoutUser);
+
+// apply web authentication to all routes below here
+// router.use();  // ERROR: for some reason, this is affecting apiProxy Routes
+
+// Detach and send to workspaceRoutes module
+router.use('/workspace',  webAuth, require('./workspaceRoutes'));
+
 
 // Exports
 module.exports = router;

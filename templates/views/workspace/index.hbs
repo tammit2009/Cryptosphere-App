@@ -1,0 +1,120 @@
+<!-- Workspace Zone Content -->
+<div class="container-fluid">
+    <!-- Main Content -->
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <div class="tabbable">
+                    <ul class="nav nav-sidebar">
+                        <li class="nav_link active">
+                            <a href="#dashboard" data-toggle="tab">
+                                <i class='bx bx-tachometer'></i>
+                                <span class="links_name">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav_link">
+                            <a href="#account" data-toggle="tab">
+                                <i class='bx bxs-user-account'></i>
+                                <span class="links_name">Account</span>
+                            </a>
+                        </li>
+                        <li class="nav_link">
+                            <a href="#markets" data-toggle="tab">
+                                <i class='bx bxs-bank'></i>
+                                <span class="links_name">Markets</span>
+                            </a>
+                        </li>   
+                        <li class="nav_link">
+                            <a href="#watchlist" data-toggle="tab">
+                                <i class='bx bxs-show'></i>
+                                <span class="links_name">WatchList</span>
+                            </a>
+                        </li>   
+                        <li class="nav_link">
+                            <a href="#orders" data-toggle="tab">
+                                <i class='bx bx-book-content'></i>
+                                <span class="links_name">Orders</span>
+                            </a>
+                        </li>   
+                        <li class="nav_link">
+                            <a href="#trades" data-toggle="tab">
+                                <i class='bx bx-transfer-alt'></i>
+                                <span class="links_name">Trades</span>
+                            </a>
+                        </li>    
+                        <li class="nav_link">
+                            <a href="#positions" data-toggle="tab">
+                                <i class='bx bxs-component'></i>
+                                <span class="links_name">Positions</span>
+                            </a>
+                        </li>  
+                        <li class="nav_link">
+                            <a href="#triggers" data-toggle="tab">
+                                <i class='bx bxs-traffic'></i>
+                                <span class="links_name">Triggers</span>
+                            </a>
+                        </li>     
+                        <li class="nav_link">
+                            <a href="#systasks" data-toggle="tab">
+                                <i class='bx bx-task'></i>
+                                <span class="links_name">SysTasks</span>
+                            </a>
+                        </li>      
+                        <li class="nav_link">
+                            <a href="#actiondefs" data-toggle="tab">
+                                <i class='bx bxs-factory'></i>
+                                <span class="links_name">Action Defs</span>
+                            </a>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <ol class="breadcrumb my-2">
+                    <li class="active">Workspace</li>
+                </ol>
+                <hr class="my-1">
+                <div id="workspaceContainer">
+                    <div class="tabbable">
+                        <div class="tab-content mt-3">
+                            <div class="tab-pane active" id="dashboard">
+                                {{> workspace/dashboard }}
+                            </div>
+                            <div class="tab-pane" id="account">
+                                {{> workspace/account }}
+                            </div>
+                            <div class="tab-pane" id="markets">
+                                {{> workspace/markets }}
+                            </div>
+                            <div class="tab-pane" id="watchlist">
+                                {{> workspace/watchlist }}
+                            </div>
+                            <div class="tab-pane" id="orders">
+                                {{> workspace/orders }}
+                            </div>
+                            <div class="tab-pane" id="trades">
+                                {{> workspace/trades }}
+                            </div>
+                            <div class="tab-pane" id="positions">
+                                {{> workspace/positions }}
+                            </div>
+                            <div class="tab-pane" id="triggers">
+                                {{> workspace/triggers }}
+                            </div>
+                            <div class="tab-pane" id="systasks">
+                                {{> workspace/systasks }}
+                            </div>
+                            <div class="tab-pane" id="actiondefs">
+                                {{> workspace/actiondefs }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
